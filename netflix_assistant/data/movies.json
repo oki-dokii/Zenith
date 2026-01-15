@@ -1,0 +1,599 @@
+{
+    "movies": [
+        {
+            "title": "The Conjuring",
+            "year": 2013,
+            "rating": 7.5,
+            "genres": [
+                "horror",
+                "thriller",
+                "supernatural"
+            ],
+            "description": "Paranormal investigators help a family terrorized by a dark presence."
+        },
+        {
+            "title": "Hereditary",
+            "year": 2018,
+            "rating": 7.3,
+            "genres": [
+                "horror",
+                "drama",
+                "mystery"
+            ],
+            "description": "A grieving family is haunted by tragic and disturbing occurrences."
+        },
+        {
+            "title": "Get Out",
+            "year": 2017,
+            "rating": 7.7,
+            "genres": [
+                "horror",
+                "thriller",
+                "mystery"
+            ],
+            "description": "A young African-American visits his white girlfriend's parents for the weekend."
+        },
+        {
+            "title": "A Quiet Place",
+            "year": 2018,
+            "rating": 7.5,
+            "genres": [
+                "horror",
+                "drama",
+                "sci-fi"
+            ],
+            "description": "A family must live in silence to avoid mysterious creatures that hunt by sound."
+        },
+        {
+            "title": "It",
+            "year": 2017,
+            "rating": 7.3,
+            "genres": [
+                "horror",
+                "thriller"
+            ],
+            "description": "Children face their biggest fears when they encounter a clown named Pennywise."
+        },
+        {
+            "title": "The Shining",
+            "year": 1980,
+            "rating": 8.4,
+            "genres": [
+                "horror",
+                "drama",
+                "classic"
+            ],
+            "description": "A family heads to an isolated hotel where a sinister presence influences the father."
+        },
+        {
+            "title": "Midsommar",
+            "year": 2019,
+            "rating": 7.1,
+            "genres": [
+                "horror",
+                "drama",
+                "mystery"
+            ],
+            "description": "A couple travels to Sweden to visit a rural hometown's midsummer festival."
+        },
+        {
+            "title": "The Exorcist",
+            "year": 1973,
+            "rating": 8.1,
+            "genres": [
+                "horror",
+                "classic",
+                "supernatural"
+            ],
+            "description": "A mother seeks help when her daughter becomes possessed by a mysterious entity."
+        },
+        {
+            "title": "Sinister",
+            "year": 2012,
+            "rating": 6.8,
+            "genres": [
+                "horror",
+                "thriller",
+                "mystery"
+            ],
+            "description": "A true-crime writer discovers disturbing home videos in his new house."
+        },
+        {
+            "title": "Insidious",
+            "year": 2010,
+            "rating": 6.8,
+            "genres": [
+                "horror",
+                "thriller",
+                "supernatural"
+            ],
+            "description": "A family looks to prevent evil spirits from trapping their comatose child."
+        },
+        {
+            "title": "The Hangover",
+            "year": 2009,
+            "rating": 7.7,
+            "genres": [
+                "comedy",
+                "party"
+            ],
+            "description": "Three buddies wake up from a bachelor party with no memory of the previous night."
+        },
+        {
+            "title": "Superbad",
+            "year": 2007,
+            "rating": 7.6,
+            "genres": [
+                "comedy",
+                "teen"
+            ],
+            "description": "Two co-dependent high school seniors set out to buy alcohol for a party."
+        },
+        {
+            "title": "Step Brothers",
+            "year": 2008,
+            "rating": 6.9,
+            "genres": [
+                "comedy"
+            ],
+            "description": "Two middle-aged men become stepbrothers when their parents marry."
+        },
+        {
+            "title": "Bridesmaids",
+            "year": 2011,
+            "rating": 6.8,
+            "genres": [
+                "comedy",
+                "romance"
+            ],
+            "description": "A woman's life unravels as she leads her best friend's wedding party."
+        },
+        {
+            "title": "21 Jump Street",
+            "year": 2012,
+            "rating": 7.2,
+            "genres": [
+                "comedy",
+                "action",
+                "crime"
+            ],
+            "description": "Two cops go undercover at a high school to bust a drug ring."
+        },
+        {
+            "title": "The Grand Budapest Hotel",
+            "year": 2014,
+            "rating": 8.1,
+            "genres": [
+                "comedy",
+                "drama",
+                "adventure"
+            ],
+            "description": "A concierge and his lobby boy become wrapped up in theft and murder."
+        },
+        {
+            "title": "Crazy Rich Asians",
+            "year": 2018,
+            "rating": 6.9,
+            "genres": [
+                "comedy",
+                "romance",
+                "drama"
+            ],
+            "description": "A woman accompanies her boyfriend to Singapore for his best friend's wedding."
+        },
+        {
+            "title": "Game Night",
+            "year": 2018,
+            "rating": 6.9,
+            "genres": [
+                "comedy",
+                "action",
+                "mystery"
+            ],
+            "description": "A group of friends' game night turns into a real-life mystery."
+        },
+        {
+            "title": "The Dark Knight",
+            "year": 2008,
+            "rating": 9.0,
+            "genres": [
+                "action",
+                "crime",
+                "drama",
+                "superhero"
+            ],
+            "description": "Batman faces the Joker, a criminal mastermind who wants to watch Gotham burn."
+        },
+        {
+            "title": "Mad Max: Fury Road",
+            "year": 2015,
+            "rating": 8.1,
+            "genres": [
+                "action",
+                "adventure",
+                "sci-fi"
+            ],
+            "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler."
+        },
+        {
+            "title": "John Wick",
+            "year": 2014,
+            "rating": 7.4,
+            "genres": [
+                "action",
+                "thriller",
+                "crime"
+            ],
+            "description": "A retired hitman seeks vengeance after criminals kill his dog."
+        },
+        {
+            "title": "Mission: Impossible - Fallout",
+            "year": 2018,
+            "rating": 7.7,
+            "genres": [
+                "action",
+                "adventure",
+                "thriller"
+            ],
+            "description": "Ethan Hunt and his team race against time after a mission goes wrong."
+        },
+        {
+            "title": "Gladiator",
+            "year": 2000,
+            "rating": 8.5,
+            "genres": [
+                "action",
+                "adventure",
+                "drama",
+                "historical"
+            ],
+            "description": "A Roman general seeks revenge against the corrupt emperor who murdered his family."
+        },
+        {
+            "title": "Die Hard",
+            "year": 1988,
+            "rating": 8.2,
+            "genres": [
+                "action",
+                "thriller",
+                "classic"
+            ],
+            "description": "An NYPD officer tries to save his wife and others taken hostage by terrorists."
+        },
+        {
+            "title": "Top Gun: Maverick",
+            "year": 2022,
+            "rating": 8.3,
+            "genres": [
+                "action",
+                "drama"
+            ],
+            "description": "After 30 years, Maverick is called to train a group of Top Gun graduates."
+        },
+        {
+            "title": "The Matrix",
+            "year": 1999,
+            "rating": 8.7,
+            "genres": [
+                "action",
+                "sci-fi"
+            ],
+            "description": "A hacker discovers reality as he knows it is actually a simulation."
+        },
+        {
+            "title": "Inception",
+            "year": 2010,
+            "rating": 8.8,
+            "genres": [
+                "action",
+                "sci-fi",
+                "thriller"
+            ],
+            "description": "A thief who steals secrets through dreams is offered a chance to erase his past."
+        },
+        {
+            "title": "Interstellar",
+            "year": 2014,
+            "rating": 8.6,
+            "genres": [
+                "sci-fi",
+                "drama",
+                "adventure"
+            ],
+            "description": "A team of explorers travel through a wormhole in search of a new home for humanity."
+        },
+        {
+            "title": "Blade Runner 2049",
+            "year": 2017,
+            "rating": 8.0,
+            "genres": [
+                "sci-fi",
+                "drama",
+                "mystery"
+            ],
+            "description": "A new blade runner discovers a long-buried secret that could plunge society into chaos."
+        },
+        {
+            "title": "Dune",
+            "year": 2021,
+            "rating": 8.0,
+            "genres": [
+                "sci-fi",
+                "adventure",
+                "drama"
+            ],
+            "description": "Paul Atreides must travel to the most dangerous planet to ensure his family's future."
+        },
+        {
+            "title": "Arrival",
+            "year": 2016,
+            "rating": 7.9,
+            "genres": [
+                "sci-fi",
+                "drama",
+                "mystery"
+            ],
+            "description": "A linguist works with the military to communicate with alien lifeforms."
+        },
+        {
+            "title": "Ex Machina",
+            "year": 2014,
+            "rating": 7.7,
+            "genres": [
+                "sci-fi",
+                "drama",
+                "thriller"
+            ],
+            "description": "A programmer is selected to participate in an experiment with an AI."
+        },
+        {
+            "title": "The Shawshank Redemption",
+            "year": 1994,
+            "rating": 9.3,
+            "genres": [
+                "drama",
+                "classic"
+            ],
+            "description": "Two imprisoned men bond over a number of years, finding solace and redemption."
+        },
+        {
+            "title": "Forrest Gump",
+            "year": 1994,
+            "rating": 8.8,
+            "genres": [
+                "drama",
+                "romance",
+                "classic"
+            ],
+            "description": "The story of a man with a low IQ who accomplishes great things in his life."
+        },
+        {
+            "title": "The Godfather",
+            "year": 1972,
+            "rating": 9.2,
+            "genres": [
+                "drama",
+                "crime",
+                "classic"
+            ],
+            "description": "The aging patriarch of an organized crime dynasty transfers control to his son."
+        },
+        {
+            "title": "Parasite",
+            "year": 2019,
+            "rating": 8.5,
+            "genres": [
+                "drama",
+                "thriller",
+                "comedy"
+            ],
+            "description": "A poor family schemes to become employed by a wealthy family."
+        },
+        {
+            "title": "Whiplash",
+            "year": 2014,
+            "rating": 8.5,
+            "genres": [
+                "drama",
+                "music"
+            ],
+            "description": "A young drummer enrolls at a music conservatory under an abusive instructor."
+        },
+        {
+            "title": "The Social Network",
+            "year": 2010,
+            "rating": 7.8,
+            "genres": [
+                "drama",
+                "biography"
+            ],
+            "description": "The story of the founders of Facebook and their legal battles."
+        },
+        {
+            "title": "Bohemian Rhapsody",
+            "year": 2018,
+            "rating": 7.9,
+            "genres": [
+                "drama",
+                "music",
+                "biography"
+            ],
+            "description": "The story of the legendary rock band Queen and their iconic frontman."
+        },
+        {
+            "title": "The Notebook",
+            "year": 2004,
+            "rating": 7.8,
+            "genres": [
+                "romance",
+                "drama"
+            ],
+            "description": "A poor yet passionate young man falls in love with a rich young woman."
+        },
+        {
+            "title": "La La Land",
+            "year": 2016,
+            "rating": 8.0,
+            "genres": [
+                "romance",
+                "drama",
+                "music"
+            ],
+            "description": "A jazz pianist and an aspiring actress fall in love while pursuing their dreams."
+        },
+        {
+            "title": "Titanic",
+            "year": 1997,
+            "rating": 7.9,
+            "genres": [
+                "romance",
+                "drama",
+                "classic"
+            ],
+            "description": "A seventeen-year-old aristocrat falls in love with a kind artist aboard the Titanic."
+        },
+        {
+            "title": "Pride & Prejudice",
+            "year": 2005,
+            "rating": 7.8,
+            "genres": [
+                "romance",
+                "drama"
+            ],
+            "description": "A spirited young woman meets a proud but intriguing gentleman."
+        },
+        {
+            "title": "500 Days of Summer",
+            "year": 2009,
+            "rating": 7.7,
+            "genres": [
+                "romance",
+                "comedy",
+                "drama"
+            ],
+            "description": "A man reflects on his failed relationship with a woman who didn't believe in love."
+        },
+        {
+            "title": "Avengers: Endgame",
+            "year": 2019,
+            "rating": 8.4,
+            "genres": [
+                "action",
+                "superhero",
+                "adventure"
+            ],
+            "description": "The Avengers assemble once more to undo Thanos' destruction."
+        },
+        {
+            "title": "Spider-Man: Into the Spider-Verse",
+            "year": 2018,
+            "rating": 8.4,
+            "genres": [
+                "animation",
+                "action",
+                "superhero"
+            ],
+            "description": "Teen Miles Morales becomes Spider-Man and meets counterparts from other dimensions."
+        },
+        {
+            "title": "Black Panther",
+            "year": 2018,
+            "rating": 7.3,
+            "genres": [
+                "action",
+                "superhero",
+                "adventure"
+            ],
+            "description": "T'Challa returns home to Wakanda to take his place as King."
+        },
+        {
+            "title": "Spirited Away",
+            "year": 2001,
+            "rating": 8.6,
+            "genres": [
+                "animation",
+                "adventure",
+                "family",
+                "anime"
+            ],
+            "description": "A young girl enters a world ruled by gods, witches, and spirits."
+        },
+        {
+            "title": "Your Name",
+            "year": 2016,
+            "rating": 8.4,
+            "genres": [
+                "animation",
+                "romance",
+                "drama",
+                "anime"
+            ],
+            "description": "Two strangers find themselves linked in a bizarre way."
+        },
+        {
+            "title": "Coco",
+            "year": 2017,
+            "rating": 8.4,
+            "genres": [
+                "animation",
+                "adventure",
+                "family"
+            ],
+            "description": "A boy journeys to the Land of the Dead to find his great-great-grandfather."
+        },
+        {
+            "title": "Knives Out",
+            "year": 2019,
+            "rating": 7.9,
+            "genres": [
+                "mystery",
+                "comedy",
+                "crime"
+            ],
+            "description": "A detective investigates the death of a patriarch of an eccentric family."
+        },
+        {
+            "title": "Gone Girl",
+            "year": 2014,
+            "rating": 8.1,
+            "genres": [
+                "mystery",
+                "thriller",
+                "drama"
+            ],
+            "description": "A man becomes the prime suspect in the disappearance of his wife."
+        },
+        {
+            "title": "Shutter Island",
+            "year": 2010,
+            "rating": 8.2,
+            "genres": [
+                "mystery",
+                "thriller"
+            ],
+            "description": "A U.S. Marshal investigates the disappearance of a patient from a psychiatric facility."
+        },
+        {
+            "title": "The Prestige",
+            "year": 2006,
+            "rating": 8.5,
+            "genres": [
+                "mystery",
+                "drama",
+                "thriller"
+            ],
+            "description": "Two stage magicians engage in competitive one-upmanship with tragic consequences."
+        },
+        {
+            "title": "Se7en",
+            "year": 1995,
+            "rating": 8.6,
+            "genres": [
+                "mystery",
+                "thriller",
+                "crime"
+            ],
+            "description": "Two detectives hunt a serial killer who uses the seven deadly sins as motives."
+        }
+    ]
+}

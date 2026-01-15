@@ -1,0 +1,15 @@
+# Netflix AI Assistant Dependencies
+
+# Windows API access
+pywin32>=306
+
+# UI Automation (COM interface)
+comtypes>=1.4.1
+
+# Keyboard monitoring
+pynput>=1.7.6
+
+# Tkinter is included with Python, no need to install
+
+# Optional: For API mode (TMDB/OMDB)
+requests>=2.31.0
