@@ -216,34 +216,41 @@ class NetflixController:
     
     def search_for_movie(self, title: str) -> bool:
         """
-        Complete flow: clear search, type title, trigger search.
+        Complete flow: focus Netflix, clear search, type title, trigger search.
         
         Args:
-            title: Movie title to search for
+            title: Movie title or genre to search for
         
         Returns:
             True if all steps succeeded, False otherwise
         """
-        logger.info(f"Searching for movie: {title}")
+        logger.info(f"Searching for: {title}")
+        
+        # Step 0: Focus Netflix window first
+        if not self.focus_netflix_search():
+            logger.warning("Could not focus Netflix, attempting anyway")
+        
+        time.sleep(0.3)
         
         # Step 1: Clear existing search
         if not self.clear_search_box():
             logger.warning("Failed to clear search box, continuing anyway")
         
-        time.sleep(0.1)
+        time.sleep(0.15)
         
-        # Step 2: Type the movie title
+        # Step 2: Type the search text
         if not self.set_search_text(title):
             logger.error("Failed to set search text")
             return False
         
-        time.sleep(0.2)
+        time.sleep(0.3)
         
         # Step 3: Trigger search
         if not self.trigger_search():
             logger.error("Failed to trigger search")
             return False
         
+        logger.info(f"Search completed for: {title}")
         return True
     
     def focus_netflix_search(self) -> bool:

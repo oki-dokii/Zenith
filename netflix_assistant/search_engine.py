@@ -27,26 +27,30 @@ class MovieSearchEngine:
         'horror': ['horror'],
         'scary': ['horror', 'thriller'],
         'creepy': ['horror', 'thriller'],
-        'spooky': ['horror', 'supernatural'],
+        'spooky': ['horror'],
         'terrifying': ['horror'],
+        'hor': ['horror'],
         
         # Comedy
         'comedy': ['comedy'],
         'funny': ['comedy'],
         'hilarious': ['comedy'],
         'laugh': ['comedy'],
+        'com': ['comedy'],
         
         # Action
         'action': ['action'],
         'explosive': ['action'],
         'fight': ['action'],
         'exciting': ['action', 'thriller'],
+        'act': ['action'],
         
         # Drama
         'drama': ['drama'],
         'emotional': ['drama'],
         'moving': ['drama'],
         'serious': ['drama'],
+        'dra': ['drama'],
         
         # Sci-Fi
         'sci-fi': ['sci-fi'],
@@ -55,36 +59,42 @@ class MovieSearchEngine:
         'space': ['sci-fi'],
         'future': ['sci-fi'],
         'futuristic': ['sci-fi'],
+        'sci': ['sci-fi'],
         
         # Romance
         'romance': ['romance'],
         'romantic': ['romance'],
         'love': ['romance'],
         'love story': ['romance'],
+        'rom': ['romance'],
         
         # Thriller
         'thriller': ['thriller'],
         'suspense': ['thriller'],
         'tense': ['thriller'],
         'suspenseful': ['thriller'],
+        'thrill': ['thriller'],
         
         # Mystery
         'mystery': ['mystery'],
         'mysterious': ['mystery'],
         'detective': ['mystery', 'crime'],
         'whodunit': ['mystery'],
+        'myst': ['mystery'],
         
         # Superhero
         'superhero': ['superhero'],
         'marvel': ['superhero', 'action'],
         'dc': ['superhero', 'action'],
         'heroes': ['superhero'],
+        'super': ['superhero'],
         
         # Animation
         'animation': ['animation'],
         'animated': ['animation'],
         'cartoon': ['animation'],
         'anime': ['anime', 'animation'],
+        'anim': ['animation'],
         
         # Classic
         'classic': ['classic'],
@@ -95,6 +105,26 @@ class MovieSearchEngine:
         'family': ['family'],
         'kids': ['family', 'animation'],
         'children': ['family'],
+        'fam': ['family'],
+        
+        # Crime
+        'crime': ['crime'],
+        'criminal': ['crime'],
+        'mafia': ['crime', 'drama'],
+        'gangster': ['crime'],
+        'cri': ['crime'],
+        
+        # Adventure
+        'adventure': ['adventure'],
+        'adv': ['adventure'],
+        'journey': ['adventure'],
+        'quest': ['adventure'],
+        
+        # Documentary
+        'documentary': ['documentary'],
+        'doc': ['documentary'],
+        'docu': ['documentary'],
+        'true story': ['documentary', 'drama'],
     }
     
     def __init__(self, data_path: Optional[str] = None):
@@ -156,6 +186,24 @@ class MovieSearchEngine:
         
         # Sort by score (descending), then by rating (descending)
         results.sort(key=lambda x: (x[1], x[0].get('rating', 0)), reverse=True)
+        
+        # If no results, fallback to title prefix matching or top movies
+        if not results:
+            # Try prefix matching on title
+            for movie in self.movies:
+                title = movie.get('title', '').lower()
+                # Match if title starts with query or any word in title starts with query
+                words = title.split()
+                if title.startswith(query_lower) or any(w.startswith(query_lower) for w in words):
+                    score = 10.0 + movie.get('rating', 5.0)
+                    results.append((movie, score))
+            
+            results.sort(key=lambda x: x[1], reverse=True)
+        
+        # If still no results, return top-rated movies
+        if not results:
+            top_movies = sorted(self.movies, key=lambda m: m.get('rating', 0), reverse=True)
+            return top_movies[:max_results]
         
         # Return top results
         return [movie for movie, score in results[:max_results]]
@@ -268,6 +316,77 @@ class MovieSearchEngine:
         for movie in self.movies:
             genres.update(movie.get('genres', []))
         return sorted(genres)
+    
+    def search_with_genres(self, query: str, max_genres: int = 3, max_movies: int = 5) -> Dict:
+        """
+        Search for both matching genres and movies.
+        
+        Args:
+            query: User's search query (after AI: prefix)
+            max_genres: Maximum number of genre suggestions to return
+            max_movies: Maximum number of movie suggestions to return
+        
+        Returns:
+            Dict with 'genres' and 'movies' lists
+        """
+        matching_genres = self._get_matching_genres(query)
+        movies = self.search(query, max_results=max_movies)
+        
+        return {
+            'genres': matching_genres[:max_genres],
+            'movies': movies
+        }
+    
+    def _get_matching_genres(self, query: str) -> List[Dict]:
+        """
+        Get genres that match the query keyword.
+        
+        Args:
+            query: User's search query
+        
+        Returns:
+            List of genre dicts with 'name', 'icon', and 'keywords'
+        """
+        query_lower = query.lower().strip()
+        matching = []
+        
+        # Genre icons for display
+        GENRE_ICONS = {
+            'horror': '👻',
+            'comedy': '😂',
+            'action': '💥',
+            'drama': '🎭',
+            'sci-fi': '🚀',
+            'romance': '❤️',
+            'thriller': '😱',
+            'mystery': '🔍',
+            'superhero': '🦸',
+            'animation': '🎨',
+            'anime': '🎌',
+            'classic': '🎬',
+            'family': '👨‍👩‍👧‍👦',
+            'crime': '🔫',
+            'adventure': '🗺️',
+            'documentary': '📹',
+        }
+        
+        # Find genres that match the query
+        seen_genres = set()
+        query_words = query_lower.split()
+        
+        for term, mapped_genres in self.GENRE_MAPPINGS.items():
+            # Check if term is in query or matches any word
+            if term in query_lower or any(w.startswith(term) or term.startswith(w) for w in query_words if len(w) >= 2):
+                for genre in mapped_genres:
+                    if genre not in seen_genres:
+                        seen_genres.add(genre)
+                        matching.append({
+                            'name': genre.capitalize(),
+                            'icon': GENRE_ICONS.get(genre, '🎬'),
+                            'search_term': genre
+                        })
+        
+        return matching
 
 
 # Singleton instance

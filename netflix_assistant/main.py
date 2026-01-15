@@ -77,7 +77,8 @@ class NetflixAIAssistant:
         # Initialize overlay
         self.overlay = SuggestionOverlay(
             on_select=self._on_movie_selected,
-            on_close=self._on_overlay_closed
+            on_close=self._on_overlay_closed,
+            on_genre_select=self._on_genre_selected
         )
         
         # Initialize keyboard monitor
@@ -171,13 +172,16 @@ class NetflixAIAssistant:
                 self.overlay.hide()
             return
         
-        # Search for movies
-        results = self.search_engine.search(query)
-        logger.info(f"Found {len(results)} results")
+        # Search for movies and genres
+        search_results = self.search_engine.search_with_genres(query)
+        genres = search_results.get('genres', [])
+        movies = search_results.get('movies', [])
         
-        if results:
+        logger.info(f"Found {len(genres)} genres and {len(movies)} movies")
+        
+        if genres or movies:
             # Show overlay with results
-            self.overlay.show(results, query)
+            self.overlay.show(movies, query, genres=genres)
             self.keyboard_monitor.set_overlay_active(True)
         else:
             # No results - hide overlay
@@ -229,6 +233,18 @@ class NetflixAIAssistant:
         # Search for the movie in Netflix
         if title:
             self.controller.search_for_movie(title)
+    
+    def _on_genre_selected(self, genre: str):
+        """Handle genre selection from overlay."""
+        logger.info(f"Genre selected: {genre}")
+        
+        # Clear the keyboard buffer
+        self.keyboard_monitor.clear_buffer()
+        self.keyboard_monitor.set_overlay_active(False)
+        
+        # Search for the genre in Netflix
+        if genre:
+            self.controller.search_for_movie(genre)
     
     def _on_overlay_closed(self):
         """Handle overlay close."""

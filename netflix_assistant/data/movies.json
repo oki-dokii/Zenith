@@ -1,599 +1,3802 @@
 {
-    "movies": [
-        {
-            "title": "The Conjuring",
-            "year": 2013,
-            "rating": 7.5,
-            "genres": [
-                "horror",
-                "thriller",
-                "supernatural"
-            ],
-            "description": "Paranormal investigators help a family terrorized by a dark presence."
-        },
-        {
-            "title": "Hereditary",
-            "year": 2018,
-            "rating": 7.3,
-            "genres": [
-                "horror",
-                "drama",
-                "mystery"
-            ],
-            "description": "A grieving family is haunted by tragic and disturbing occurrences."
-        },
-        {
-            "title": "Get Out",
-            "year": 2017,
-            "rating": 7.7,
-            "genres": [
-                "horror",
-                "thriller",
-                "mystery"
-            ],
-            "description": "A young African-American visits his white girlfriend's parents for the weekend."
-        },
-        {
-            "title": "A Quiet Place",
-            "year": 2018,
-            "rating": 7.5,
-            "genres": [
-                "horror",
-                "drama",
-                "sci-fi"
-            ],
-            "description": "A family must live in silence to avoid mysterious creatures that hunt by sound."
-        },
-        {
-            "title": "It",
-            "year": 2017,
-            "rating": 7.3,
-            "genres": [
-                "horror",
-                "thriller"
-            ],
-            "description": "Children face their biggest fears when they encounter a clown named Pennywise."
-        },
-        {
-            "title": "The Shining",
-            "year": 1980,
-            "rating": 8.4,
-            "genres": [
-                "horror",
-                "drama",
-                "classic"
-            ],
-            "description": "A family heads to an isolated hotel where a sinister presence influences the father."
-        },
-        {
-            "title": "Midsommar",
-            "year": 2019,
-            "rating": 7.1,
-            "genres": [
-                "horror",
-                "drama",
-                "mystery"
-            ],
-            "description": "A couple travels to Sweden to visit a rural hometown's midsummer festival."
-        },
-        {
-            "title": "The Exorcist",
-            "year": 1973,
-            "rating": 8.1,
-            "genres": [
-                "horror",
-                "classic",
-                "supernatural"
-            ],
-            "description": "A mother seeks help when her daughter becomes possessed by a mysterious entity."
-        },
-        {
-            "title": "Sinister",
-            "year": 2012,
-            "rating": 6.8,
-            "genres": [
-                "horror",
-                "thriller",
-                "mystery"
-            ],
-            "description": "A true-crime writer discovers disturbing home videos in his new house."
-        },
-        {
-            "title": "Insidious",
-            "year": 2010,
-            "rating": 6.8,
-            "genres": [
-                "horror",
-                "thriller",
-                "supernatural"
-            ],
-            "description": "A family looks to prevent evil spirits from trapping their comatose child."
-        },
-        {
-            "title": "The Hangover",
-            "year": 2009,
-            "rating": 7.7,
-            "genres": [
-                "comedy",
-                "party"
-            ],
-            "description": "Three buddies wake up from a bachelor party with no memory of the previous night."
-        },
-        {
-            "title": "Superbad",
-            "year": 2007,
-            "rating": 7.6,
-            "genres": [
-                "comedy",
-                "teen"
-            ],
-            "description": "Two co-dependent high school seniors set out to buy alcohol for a party."
-        },
-        {
-            "title": "Step Brothers",
-            "year": 2008,
-            "rating": 6.9,
-            "genres": [
-                "comedy"
-            ],
-            "description": "Two middle-aged men become stepbrothers when their parents marry."
-        },
-        {
-            "title": "Bridesmaids",
-            "year": 2011,
-            "rating": 6.8,
-            "genres": [
-                "comedy",
-                "romance"
-            ],
-            "description": "A woman's life unravels as she leads her best friend's wedding party."
-        },
-        {
-            "title": "21 Jump Street",
-            "year": 2012,
-            "rating": 7.2,
-            "genres": [
-                "comedy",
-                "action",
-                "crime"
-            ],
-            "description": "Two cops go undercover at a high school to bust a drug ring."
-        },
-        {
-            "title": "The Grand Budapest Hotel",
-            "year": 2014,
-            "rating": 8.1,
-            "genres": [
-                "comedy",
-                "drama",
-                "adventure"
-            ],
-            "description": "A concierge and his lobby boy become wrapped up in theft and murder."
-        },
-        {
-            "title": "Crazy Rich Asians",
-            "year": 2018,
-            "rating": 6.9,
-            "genres": [
-                "comedy",
-                "romance",
-                "drama"
-            ],
-            "description": "A woman accompanies her boyfriend to Singapore for his best friend's wedding."
-        },
-        {
-            "title": "Game Night",
-            "year": 2018,
-            "rating": 6.9,
-            "genres": [
-                "comedy",
-                "action",
-                "mystery"
-            ],
-            "description": "A group of friends' game night turns into a real-life mystery."
-        },
-        {
-            "title": "The Dark Knight",
-            "year": 2008,
-            "rating": 9.0,
-            "genres": [
-                "action",
-                "crime",
-                "drama",
-                "superhero"
-            ],
-            "description": "Batman faces the Joker, a criminal mastermind who wants to watch Gotham burn."
-        },
-        {
-            "title": "Mad Max: Fury Road",
-            "year": 2015,
-            "rating": 8.1,
-            "genres": [
-                "action",
-                "adventure",
-                "sci-fi"
-            ],
-            "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler."
-        },
-        {
-            "title": "John Wick",
-            "year": 2014,
-            "rating": 7.4,
-            "genres": [
-                "action",
-                "thriller",
-                "crime"
-            ],
-            "description": "A retired hitman seeks vengeance after criminals kill his dog."
-        },
-        {
-            "title": "Mission: Impossible - Fallout",
-            "year": 2018,
-            "rating": 7.7,
-            "genres": [
-                "action",
-                "adventure",
-                "thriller"
-            ],
-            "description": "Ethan Hunt and his team race against time after a mission goes wrong."
-        },
-        {
-            "title": "Gladiator",
-            "year": 2000,
-            "rating": 8.5,
-            "genres": [
-                "action",
-                "adventure",
-                "drama",
-                "historical"
-            ],
-            "description": "A Roman general seeks revenge against the corrupt emperor who murdered his family."
-        },
-        {
-            "title": "Die Hard",
-            "year": 1988,
-            "rating": 8.2,
-            "genres": [
-                "action",
-                "thriller",
-                "classic"
-            ],
-            "description": "An NYPD officer tries to save his wife and others taken hostage by terrorists."
-        },
-        {
-            "title": "Top Gun: Maverick",
-            "year": 2022,
-            "rating": 8.3,
-            "genres": [
-                "action",
-                "drama"
-            ],
-            "description": "After 30 years, Maverick is called to train a group of Top Gun graduates."
-        },
-        {
-            "title": "The Matrix",
-            "year": 1999,
-            "rating": 8.7,
-            "genres": [
-                "action",
-                "sci-fi"
-            ],
-            "description": "A hacker discovers reality as he knows it is actually a simulation."
-        },
-        {
-            "title": "Inception",
-            "year": 2010,
-            "rating": 8.8,
-            "genres": [
-                "action",
-                "sci-fi",
-                "thriller"
-            ],
-            "description": "A thief who steals secrets through dreams is offered a chance to erase his past."
-        },
-        {
-            "title": "Interstellar",
-            "year": 2014,
-            "rating": 8.6,
-            "genres": [
-                "sci-fi",
-                "drama",
-                "adventure"
-            ],
-            "description": "A team of explorers travel through a wormhole in search of a new home for humanity."
-        },
-        {
-            "title": "Blade Runner 2049",
-            "year": 2017,
-            "rating": 8.0,
-            "genres": [
-                "sci-fi",
-                "drama",
-                "mystery"
-            ],
-            "description": "A new blade runner discovers a long-buried secret that could plunge society into chaos."
-        },
-        {
-            "title": "Dune",
-            "year": 2021,
-            "rating": 8.0,
-            "genres": [
-                "sci-fi",
-                "adventure",
-                "drama"
-            ],
-            "description": "Paul Atreides must travel to the most dangerous planet to ensure his family's future."
-        },
-        {
-            "title": "Arrival",
-            "year": 2016,
-            "rating": 7.9,
-            "genres": [
-                "sci-fi",
-                "drama",
-                "mystery"
-            ],
-            "description": "A linguist works with the military to communicate with alien lifeforms."
-        },
-        {
-            "title": "Ex Machina",
-            "year": 2014,
-            "rating": 7.7,
-            "genres": [
-                "sci-fi",
-                "drama",
-                "thriller"
-            ],
-            "description": "A programmer is selected to participate in an experiment with an AI."
-        },
-        {
-            "title": "The Shawshank Redemption",
-            "year": 1994,
-            "rating": 9.3,
-            "genres": [
-                "drama",
-                "classic"
-            ],
-            "description": "Two imprisoned men bond over a number of years, finding solace and redemption."
-        },
-        {
-            "title": "Forrest Gump",
-            "year": 1994,
-            "rating": 8.8,
-            "genres": [
-                "drama",
-                "romance",
-                "classic"
-            ],
-            "description": "The story of a man with a low IQ who accomplishes great things in his life."
-        },
-        {
-            "title": "The Godfather",
-            "year": 1972,
-            "rating": 9.2,
-            "genres": [
-                "drama",
-                "crime",
-                "classic"
-            ],
-            "description": "The aging patriarch of an organized crime dynasty transfers control to his son."
-        },
-        {
-            "title": "Parasite",
-            "year": 2019,
-            "rating": 8.5,
-            "genres": [
-                "drama",
-                "thriller",
-                "comedy"
-            ],
-            "description": "A poor family schemes to become employed by a wealthy family."
-        },
-        {
-            "title": "Whiplash",
-            "year": 2014,
-            "rating": 8.5,
-            "genres": [
-                "drama",
-                "music"
-            ],
-            "description": "A young drummer enrolls at a music conservatory under an abusive instructor."
-        },
-        {
-            "title": "The Social Network",
-            "year": 2010,
-            "rating": 7.8,
-            "genres": [
-                "drama",
-                "biography"
-            ],
-            "description": "The story of the founders of Facebook and their legal battles."
-        },
-        {
-            "title": "Bohemian Rhapsody",
-            "year": 2018,
-            "rating": 7.9,
-            "genres": [
-                "drama",
-                "music",
-                "biography"
-            ],
-            "description": "The story of the legendary rock band Queen and their iconic frontman."
-        },
-        {
-            "title": "The Notebook",
-            "year": 2004,
-            "rating": 7.8,
-            "genres": [
-                "romance",
-                "drama"
-            ],
-            "description": "A poor yet passionate young man falls in love with a rich young woman."
-        },
-        {
-            "title": "La La Land",
-            "year": 2016,
-            "rating": 8.0,
-            "genres": [
-                "romance",
-                "drama",
-                "music"
-            ],
-            "description": "A jazz pianist and an aspiring actress fall in love while pursuing their dreams."
-        },
-        {
-            "title": "Titanic",
-            "year": 1997,
-            "rating": 7.9,
-            "genres": [
-                "romance",
-                "drama",
-                "classic"
-            ],
-            "description": "A seventeen-year-old aristocrat falls in love with a kind artist aboard the Titanic."
-        },
-        {
-            "title": "Pride & Prejudice",
-            "year": 2005,
-            "rating": 7.8,
-            "genres": [
-                "romance",
-                "drama"
-            ],
-            "description": "A spirited young woman meets a proud but intriguing gentleman."
-        },
-        {
-            "title": "500 Days of Summer",
-            "year": 2009,
-            "rating": 7.7,
-            "genres": [
-                "romance",
-                "comedy",
-                "drama"
-            ],
-            "description": "A man reflects on his failed relationship with a woman who didn't believe in love."
-        },
-        {
-            "title": "Avengers: Endgame",
-            "year": 2019,
-            "rating": 8.4,
-            "genres": [
-                "action",
-                "superhero",
-                "adventure"
-            ],
-            "description": "The Avengers assemble once more to undo Thanos' destruction."
-        },
-        {
-            "title": "Spider-Man: Into the Spider-Verse",
-            "year": 2018,
-            "rating": 8.4,
-            "genres": [
-                "animation",
-                "action",
-                "superhero"
-            ],
-            "description": "Teen Miles Morales becomes Spider-Man and meets counterparts from other dimensions."
-        },
-        {
-            "title": "Black Panther",
-            "year": 2018,
-            "rating": 7.3,
-            "genres": [
-                "action",
-                "superhero",
-                "adventure"
-            ],
-            "description": "T'Challa returns home to Wakanda to take his place as King."
-        },
-        {
-            "title": "Spirited Away",
-            "year": 2001,
-            "rating": 8.6,
-            "genres": [
-                "animation",
-                "adventure",
-                "family",
-                "anime"
-            ],
-            "description": "A young girl enters a world ruled by gods, witches, and spirits."
-        },
-        {
-            "title": "Your Name",
-            "year": 2016,
-            "rating": 8.4,
-            "genres": [
-                "animation",
-                "romance",
-                "drama",
-                "anime"
-            ],
-            "description": "Two strangers find themselves linked in a bizarre way."
-        },
-        {
-            "title": "Coco",
-            "year": 2017,
-            "rating": 8.4,
-            "genres": [
-                "animation",
-                "adventure",
-                "family"
-            ],
-            "description": "A boy journeys to the Land of the Dead to find his great-great-grandfather."
-        },
-        {
-            "title": "Knives Out",
-            "year": 2019,
-            "rating": 7.9,
-            "genres": [
-                "mystery",
-                "comedy",
-                "crime"
-            ],
-            "description": "A detective investigates the death of a patriarch of an eccentric family."
-        },
-        {
-            "title": "Gone Girl",
-            "year": 2014,
-            "rating": 8.1,
-            "genres": [
-                "mystery",
-                "thriller",
-                "drama"
-            ],
-            "description": "A man becomes the prime suspect in the disappearance of his wife."
-        },
-        {
-            "title": "Shutter Island",
-            "year": 2010,
-            "rating": 8.2,
-            "genres": [
-                "mystery",
-                "thriller"
-            ],
-            "description": "A U.S. Marshal investigates the disappearance of a patient from a psychiatric facility."
-        },
-        {
-            "title": "The Prestige",
-            "year": 2006,
-            "rating": 8.5,
-            "genres": [
-                "mystery",
-                "drama",
-                "thriller"
-            ],
-            "description": "Two stage magicians engage in competitive one-upmanship with tragic consequences."
-        },
-        {
-            "title": "Se7en",
-            "year": 1995,
-            "rating": 8.6,
-            "genres": [
-                "mystery",
-                "thriller",
-                "crime"
-            ],
-            "description": "Two detectives hunt a serial killer who uses the seven deadly sins as motives."
-        }
-    ]
+  "movies": [
+    {
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "rating": 9.3,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 1994 drama film rated 9.3/10."
+    },
+    {
+      "title": "Our Planet",
+      "year": 2019,
+      "rating": 9.3,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2019 documentary film rated 9.3/10."
+    },
+    {
+      "title": "The Godfather",
+      "year": 1972,
+      "rating": 9.2,
+      "genres": [
+        "drama",
+        "crime"
+      ],
+      "description": "A 1972 drama film rated 9.2/10."
+    },
+    {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "rating": 9.0,
+      "genres": [
+        "action",
+        "superhero"
+      ],
+      "description": "A 2008 action film rated 9.0/10."
+    },
+    {
+      "title": "The Godfather Part II",
+      "year": 1974,
+      "rating": 9.0,
+      "genres": [
+        "drama",
+        "crime"
+      ],
+      "description": "A 1974 drama film rated 9.0/10."
+    },
+    {
+      "title": "Schindler's List",
+      "year": 1993,
+      "rating": 9.0,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 1993 drama film rated 9.0/10."
+    },
+    {
+      "title": "The Last Dance",
+      "year": 2020,
+      "rating": 9.0,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2020 documentary film rated 9.0/10."
+    },
+    {
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "rating": 9.0,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2003 adventure film rated 9.0/10."
+    },
+    {
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "rating": 8.9,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 1994 crime film rated 8.9/10."
+    },
+    {
+      "title": "Inception",
+      "year": 2010,
+      "rating": 8.8,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2010 action film rated 8.8/10."
+    },
+    {
+      "title": "Forrest Gump",
+      "year": 1994,
+      "rating": 8.8,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 1994 drama film rated 8.8/10."
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "rating": 8.8,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2001 adventure film rated 8.8/10."
+    },
+    {
+      "title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "rating": 8.8,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2002 adventure film rated 8.8/10."
+    },
+    {
+      "title": "The Matrix",
+      "year": 1999,
+      "rating": 8.7,
+      "genres": [
+        "action"
+      ],
+      "description": "A 1999 action film rated 8.7/10."
+    },
+    {
+      "title": "Star Wars: Episode V",
+      "year": 1980,
+      "rating": 8.7,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1980 sci-fi film rated 8.7/10."
+    },
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "rating": 8.7,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 1990 crime film rated 8.7/10."
+    },
+    {
+      "title": "Interstellar",
+      "year": 2014,
+      "rating": 8.6,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2014 sci-fi film rated 8.6/10."
+    },
+    {
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "rating": 8.6,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1991 sci-fi film rated 8.6/10."
+    },
+    {
+      "title": "Star Wars: Episode IV",
+      "year": 1977,
+      "rating": 8.6,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1977 sci-fi film rated 8.6/10."
+    },
+    {
+      "title": "Se7en",
+      "year": 1995,
+      "rating": 8.6,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 1995 thriller film rated 8.6/10."
+    },
+    {
+      "title": "Spirited Away",
+      "year": 2001,
+      "rating": 8.6,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2001 animation film rated 8.6/10."
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "year": 2023,
+      "rating": 8.6,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2023 animation film rated 8.6/10."
+    },
+    {
+      "title": "City of God",
+      "year": 2002,
+      "rating": 8.6,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2002 crime film rated 8.6/10."
+    },
+    {
+      "title": "Gladiator",
+      "year": 2000,
+      "rating": 8.5,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2000 action film rated 8.5/10."
+    },
+    {
+      "title": "Parasite",
+      "year": 2019,
+      "rating": 8.5,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2019 drama film rated 8.5/10."
+    },
+    {
+      "title": "Whiplash",
+      "year": 2014,
+      "rating": 8.5,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2014 drama film rated 8.5/10."
+    },
+    {
+      "title": "Oppenheimer",
+      "year": 2023,
+      "rating": 8.5,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2023 drama film rated 8.5/10."
+    },
+    {
+      "title": "Dune: Part Two",
+      "year": 2024,
+      "rating": 8.5,
+      "genres": [
+        "sci-fi",
+        "adventure"
+      ],
+      "description": "A 2024 sci-fi film rated 8.5/10."
+    },
+    {
+      "title": "Alien",
+      "year": 1979,
+      "rating": 8.5,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1979 sci-fi film rated 8.5/10."
+    },
+    {
+      "title": "The Prestige",
+      "year": 2006,
+      "rating": 8.5,
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "description": "A 2006 thriller film rated 8.5/10."
+    },
+    {
+      "title": "Making a Murderer",
+      "year": 2015,
+      "rating": 8.5,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2015 documentary film rated 8.5/10."
+    },
+    {
+      "title": "The Departed",
+      "year": 2006,
+      "rating": 8.5,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2006 crime film rated 8.5/10."
+    },
+    {
+      "title": "The Usual Suspects",
+      "year": 1995,
+      "rating": 8.5,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 1995 crime film rated 8.5/10."
+    },
+    {
+      "title": "The Lion King",
+      "year": 1994,
+      "rating": 8.5,
+      "genres": [
+        "family"
+      ],
+      "description": "A 1994 family film rated 8.5/10."
+    },
+    {
+      "title": "The Shining",
+      "year": 1980,
+      "rating": 8.4,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 1980 horror film rated 8.4/10."
+    },
+    {
+      "title": "The Dark Knight Rises",
+      "year": 2012,
+      "rating": 8.4,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2012 action film rated 8.4/10."
+    },
+    {
+      "title": "Joker",
+      "year": 2019,
+      "rating": 8.4,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2019 drama film rated 8.4/10."
+    },
+    {
+      "title": "Aliens",
+      "year": 1986,
+      "rating": 8.4,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1986 sci-fi film rated 8.4/10."
+    },
+    {
+      "title": "Your Name",
+      "year": 2016,
+      "rating": 8.4,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2016 animation film rated 8.4/10."
+    },
+    {
+      "title": "Coco",
+      "year": 2017,
+      "rating": 8.4,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2017 animation film rated 8.4/10."
+    },
+    {
+      "title": "WALL-E",
+      "year": 2008,
+      "rating": 8.4,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2008 animation film rated 8.4/10."
+    },
+    {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "rating": 8.4,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2018 animation film rated 8.4/10."
+    },
+    {
+      "title": "Won't You Be My Neighbor?",
+      "year": 2018,
+      "rating": 8.4,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2018 documentary film rated 8.4/10."
+    },
+    {
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "rating": 8.4,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2019 superhero film rated 8.4/10."
+    },
+    {
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "rating": 8.4,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2018 superhero film rated 8.4/10."
+    },
+    {
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "rating": 8.4,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 1981 adventure film rated 8.4/10."
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "year": 2022,
+      "rating": 8.3,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2022 action film rated 8.3/10."
+    },
+    {
+      "title": "Star Wars: Episode VI",
+      "year": 1983,
+      "rating": 8.3,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1983 sci-fi film rated 8.3/10."
+    },
+    {
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "year": 2004,
+      "rating": 8.3,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2004 romance film rated 8.3/10."
+    },
+    {
+      "title": "Up",
+      "year": 2009,
+      "rating": 8.3,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2009 animation film rated 8.3/10."
+    },
+    {
+      "title": "Toy Story",
+      "year": 1995,
+      "rating": 8.3,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 1995 animation film rated 8.3/10."
+    },
+    {
+      "title": "Toy Story 3",
+      "year": 2010,
+      "rating": 8.3,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2010 animation film rated 8.3/10."
+    },
+    {
+      "title": "Heat",
+      "year": 1995,
+      "rating": 8.3,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 1995 crime film rated 8.3/10."
+    },
+    {
+      "title": "Scarface",
+      "year": 1983,
+      "rating": 8.3,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 1983 crime film rated 8.3/10."
+    },
+    {
+      "title": "The Wolf of Wall Street",
+      "year": 2013,
+      "rating": 8.2,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2013 comedy film rated 8.2/10."
+    },
+    {
+      "title": "Batman Begins",
+      "year": 2005,
+      "rating": 8.2,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2005 action film rated 8.2/10."
+    },
+    {
+      "title": "Die Hard",
+      "year": 1988,
+      "rating": 8.2,
+      "genres": [
+        "action"
+      ],
+      "description": "A 1988 action film rated 8.2/10."
+    },
+    {
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "rating": 8.2,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2001 drama film rated 8.2/10."
+    },
+    {
+      "title": "Green Book",
+      "year": 2018,
+      "rating": 8.2,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2018 drama film rated 8.2/10."
+    },
+    {
+      "title": "1917",
+      "year": 2019,
+      "rating": 8.2,
+      "genres": [
+        "drama",
+        "adventure"
+      ],
+      "description": "A 2019 drama film rated 8.2/10."
+    },
+    {
+      "title": "The Father",
+      "year": 2020,
+      "rating": 8.2,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2020 drama film rated 8.2/10."
+    },
+    {
+      "title": "Jurassic Park",
+      "year": 1993,
+      "rating": 8.2,
+      "genres": [
+        "sci-fi",
+        "adventure"
+      ],
+      "description": "A 1993 sci-fi film rated 8.2/10."
+    },
+    {
+      "title": "Shutter Island",
+      "year": 2010,
+      "rating": 8.2,
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "description": "A 2010 thriller film rated 8.2/10."
+    },
+    {
+      "title": "Inside Out",
+      "year": 2015,
+      "rating": 8.2,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2015 animation film rated 8.2/10."
+    },
+    {
+      "title": "Finding Nemo",
+      "year": 2003,
+      "rating": 8.2,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2003 animation film rated 8.2/10."
+    },
+    {
+      "title": "13th",
+      "year": 2016,
+      "rating": 8.2,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2016 documentary film rated 8.2/10."
+    },
+    {
+      "title": "Spider-Man: No Way Home",
+      "year": 2021,
+      "rating": 8.2,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2021 superhero film rated 8.2/10."
+    },
+    {
+      "title": "Casino",
+      "year": 1995,
+      "rating": 8.2,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 1995 crime film rated 8.2/10."
+    },
+    {
+      "title": "Indiana Jones and the Last Crusade",
+      "year": 1989,
+      "rating": 8.2,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 1989 adventure film rated 8.2/10."
+    },
+    {
+      "title": "The Exorcist",
+      "year": 1973,
+      "rating": 8.1,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 1973 horror film rated 8.1/10."
+    },
+    {
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "rating": 8.1,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2014 comedy film rated 8.1/10."
+    },
+    {
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "rating": 8.1,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2015 action film rated 8.1/10."
+    },
+    {
+      "title": "Hacksaw Ridge",
+      "year": 2016,
+      "rating": 8.1,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2016 drama film rated 8.1/10."
+    },
+    {
+      "title": "12 Years a Slave",
+      "year": 2013,
+      "rating": 8.1,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2013 drama film rated 8.1/10."
+    },
+    {
+      "title": "Spotlight",
+      "year": 2015,
+      "rating": 8.1,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2015 drama film rated 8.1/10."
+    },
+    {
+      "title": "Three Billboards Outside Ebbing, Missouri",
+      "year": 2017,
+      "rating": 8.1,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2017 drama film rated 8.1/10."
+    },
+    {
+      "title": "Ford v Ferrari",
+      "year": 2019,
+      "rating": 8.1,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2019 drama film rated 8.1/10."
+    },
+    {
+      "title": "Blade Runner",
+      "year": 1982,
+      "rating": 8.1,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1982 sci-fi film rated 8.1/10."
+    },
+    {
+      "title": "The Terminator",
+      "year": 1984,
+      "rating": 8.1,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1984 sci-fi film rated 8.1/10."
+    },
+    {
+      "title": "Before Sunrise",
+      "year": 1995,
+      "rating": 8.1,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 1995 romance film rated 8.1/10."
+    },
+    {
+      "title": "Before Sunset",
+      "year": 2004,
+      "rating": 8.1,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2004 romance film rated 8.1/10."
+    },
+    {
+      "title": "Gone Girl",
+      "year": 2014,
+      "rating": 8.1,
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "description": "A 2014 thriller film rated 8.1/10."
+    },
+    {
+      "title": "Prisoners",
+      "year": 2013,
+      "rating": 8.1,
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "description": "A 2013 thriller film rated 8.1/10."
+    },
+    {
+      "title": "Monsters, Inc.",
+      "year": 2001,
+      "rating": 8.1,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2001 animation film rated 8.1/10."
+    },
+    {
+      "title": "Ratatouille",
+      "year": 2007,
+      "rating": 8.1,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2007 animation film rated 8.1/10."
+    },
+    {
+      "title": "How to Train Your Dragon",
+      "year": 2010,
+      "rating": 8.1,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2010 animation film rated 8.1/10."
+    },
+    {
+      "title": "My Octopus Teacher",
+      "year": 2020,
+      "rating": 8.1,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2020 documentary film rated 8.1/10."
+    },
+    {
+      "title": "Free Solo",
+      "year": 2018,
+      "rating": 8.1,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2018 documentary film rated 8.1/10."
+    },
+    {
+      "title": "Into the Wild",
+      "year": 2007,
+      "rating": 8.1,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2007 adventure film rated 8.1/10."
+    },
+    {
+      "title": "Deadpool",
+      "year": 2016,
+      "rating": 8.0,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2016 comedy film rated 8.0/10."
+    },
+    {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "rating": 8.0,
+      "genres": [
+        "comedy",
+        "superhero"
+      ],
+      "description": "A 2014 comedy film rated 8.0/10."
+    },
+    {
+      "title": "The Pursuit of Happyness",
+      "year": 2006,
+      "rating": 8.0,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2006 drama film rated 8.0/10."
+    },
+    {
+      "title": "The Revenant",
+      "year": 2015,
+      "rating": 8.0,
+      "genres": [
+        "drama",
+        "adventure"
+      ],
+      "description": "A 2015 drama film rated 8.0/10."
+    },
+    {
+      "title": "The Imitation Game",
+      "year": 2014,
+      "rating": 8.0,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2014 drama film rated 8.0/10."
+    },
+    {
+      "title": "Dallas Buyers Club",
+      "year": 2013,
+      "rating": 8.0,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2013 drama film rated 8.0/10."
+    },
+    {
+      "title": "The King's Speech",
+      "year": 2010,
+      "rating": 8.0,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2010 drama film rated 8.0/10."
+    },
+    {
+      "title": "CODA",
+      "year": 2021,
+      "rating": 8.0,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2021 drama film rated 8.0/10."
+    },
+    {
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "rating": 8.0,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2017 sci-fi film rated 8.0/10."
+    },
+    {
+      "title": "Dune",
+      "year": 2021,
+      "rating": 8.0,
+      "genres": [
+        "sci-fi",
+        "adventure"
+      ],
+      "description": "A 2021 sci-fi film rated 8.0/10."
+    },
+    {
+      "title": "The Martian",
+      "year": 2015,
+      "rating": 8.0,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2015 sci-fi film rated 8.0/10."
+    },
+    {
+      "title": "La La Land",
+      "year": 2016,
+      "rating": 8.0,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2016 romance film rated 8.0/10."
+    },
+    {
+      "title": "Before Midnight",
+      "year": 2013,
+      "rating": 8.0,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2013 romance film rated 8.0/10."
+    },
+    {
+      "title": "Soul",
+      "year": 2020,
+      "rating": 8.0,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2020 animation film rated 8.0/10."
+    },
+    {
+      "title": "The Incredibles",
+      "year": 2004,
+      "rating": 8.0,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2004 animation film rated 8.0/10."
+    },
+    {
+      "title": "Aladdin",
+      "year": 1992,
+      "rating": 8.0,
+      "genres": [
+        "family"
+      ],
+      "description": "A 1992 family film rated 8.0/10."
+    },
+    {
+      "title": "Beauty and the Beast",
+      "year": 1991,
+      "rating": 8.0,
+      "genres": [
+        "family"
+      ],
+      "description": "A 1991 family film rated 8.0/10."
+    },
+    {
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "rating": 8.0,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2003 adventure film rated 8.0/10."
+    },
+    {
+      "title": "Knives Out",
+      "year": 2019,
+      "rating": 7.9,
+      "genres": [
+        "comedy",
+        "mystery"
+      ],
+      "description": "A 2019 comedy film rated 7.9/10."
+    },
+    {
+      "title": "Thor: Ragnarok",
+      "year": 2017,
+      "rating": 7.9,
+      "genres": [
+        "comedy",
+        "superhero"
+      ],
+      "description": "A 2017 comedy film rated 7.9/10."
+    },
+    {
+      "title": "Bohemian Rhapsody",
+      "year": 2018,
+      "rating": 7.9,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2018 drama film rated 7.9/10."
+    },
+    {
+      "title": "Marriage Story",
+      "year": 2019,
+      "rating": 7.9,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2019 drama film rated 7.9/10."
+    },
+    {
+      "title": "Arrival",
+      "year": 2016,
+      "rating": 7.9,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2016 sci-fi film rated 7.9/10."
+    },
+    {
+      "title": "Edge of Tomorrow",
+      "year": 2014,
+      "rating": 7.9,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2014 sci-fi film rated 7.9/10."
+    },
+    {
+      "title": "E.T. the Extra-Terrestrial",
+      "year": 1982,
+      "rating": 7.9,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1982 sci-fi film rated 7.9/10."
+    },
+    {
+      "title": "District 9",
+      "year": 2009,
+      "rating": 7.9,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2009 sci-fi film rated 7.9/10."
+    },
+    {
+      "title": "Avatar",
+      "year": 2009,
+      "rating": 7.9,
+      "genres": [
+        "sci-fi",
+        "adventure"
+      ],
+      "description": "A 2009 sci-fi film rated 7.9/10."
+    },
+    {
+      "title": "Titanic",
+      "year": 1997,
+      "rating": 7.9,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 1997 romance film rated 7.9/10."
+    },
+    {
+      "title": "Toy Story 2",
+      "year": 1999,
+      "rating": 7.9,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 1999 animation film rated 7.9/10."
+    },
+    {
+      "title": "Shrek",
+      "year": 2001,
+      "rating": 7.9,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2001 animation film rated 7.9/10."
+    },
+    {
+      "title": "Puss in Boots: The Last Wish",
+      "year": 2022,
+      "rating": 7.9,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2022 animation film rated 7.9/10."
+    },
+    {
+      "title": "Guardians of the Galaxy Vol. 3",
+      "year": 2023,
+      "rating": 7.9,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2023 superhero film rated 7.9/10."
+    },
+    {
+      "title": "Iron Man",
+      "year": 2008,
+      "rating": 7.9,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2008 superhero film rated 7.9/10."
+    },
+    {
+      "title": "Life of Pi",
+      "year": 2012,
+      "rating": 7.9,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2012 adventure film rated 7.9/10."
+    },
+    {
+      "title": "Little Miss Sunshine",
+      "year": 2006,
+      "rating": 7.8,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2006 comedy film rated 7.8/10."
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "rating": 7.8,
+      "genres": [
+        "comedy",
+        "sci-fi"
+      ],
+      "description": "A 2022 comedy film rated 7.8/10."
+    },
+    {
+      "title": "The Batman",
+      "year": 2022,
+      "rating": 7.8,
+      "genres": [
+        "action",
+        "superhero"
+      ],
+      "description": "A 2022 action film rated 7.8/10."
+    },
+    {
+      "title": "The Social Network",
+      "year": 2010,
+      "rating": 7.8,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2010 drama film rated 7.8/10."
+    },
+    {
+      "title": "Dunkirk",
+      "year": 2017,
+      "rating": 7.8,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2017 drama film rated 7.8/10."
+    },
+    {
+      "title": "Manchester by the Sea",
+      "year": 2016,
+      "rating": 7.8,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2016 drama film rated 7.8/10."
+    },
+    {
+      "title": "Sound of Metal",
+      "year": 2019,
+      "rating": 7.8,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2019 drama film rated 7.8/10."
+    },
+    {
+      "title": "The Trial of the Chicago 7",
+      "year": 2020,
+      "rating": 7.8,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2020 drama film rated 7.8/10."
+    },
+    {
+      "title": "Star Wars: The Force Awakens",
+      "year": 2015,
+      "rating": 7.8,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2015 sci-fi film rated 7.8/10."
+    },
+    {
+      "title": "Rogue One",
+      "year": 2016,
+      "rating": 7.8,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2016 sci-fi film rated 7.8/10."
+    },
+    {
+      "title": "The Notebook",
+      "year": 2004,
+      "rating": 7.8,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2004 romance film rated 7.8/10."
+    },
+    {
+      "title": "Pride & Prejudice",
+      "year": 2005,
+      "rating": 7.8,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2005 romance film rated 7.8/10."
+    },
+    {
+      "title": "About Time",
+      "year": 2013,
+      "rating": 7.8,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2013 romance film rated 7.8/10."
+    },
+    {
+      "title": "Nightcrawler",
+      "year": 2014,
+      "rating": 7.8,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2014 thriller film rated 7.8/10."
+    },
+    {
+      "title": "The Girl with the Dragon Tattoo",
+      "year": 2011,
+      "rating": 7.8,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2011 thriller film rated 7.8/10."
+    },
+    {
+      "title": "How to Train Your Dragon 2",
+      "year": 2014,
+      "rating": 7.8,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2014 animation film rated 7.8/10."
+    },
+    {
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "rating": 7.8,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2016 superhero film rated 7.8/10."
+    },
+    {
+      "title": "Drive",
+      "year": 2011,
+      "rating": 7.8,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2011 crime film rated 7.8/10."
+    },
+    {
+      "title": "The Irishman",
+      "year": 2019,
+      "rating": 7.8,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2019 crime film rated 7.8/10."
+    },
+    {
+      "title": "The Gentlemen",
+      "year": 2019,
+      "rating": 7.8,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2019 crime film rated 7.8/10."
+    },
+    {
+      "title": "Paddington 2",
+      "year": 2017,
+      "rating": 7.8,
+      "genres": [
+        "family"
+      ],
+      "description": "A 2017 family film rated 7.8/10."
+    },
+    {
+      "title": "The Hobbit: An Unexpected Journey",
+      "year": 2012,
+      "rating": 7.8,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2012 adventure film rated 7.8/10."
+    },
+    {
+      "title": "Cast Away",
+      "year": 2000,
+      "rating": 7.8,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2000 adventure film rated 7.8/10."
+    },
+    {
+      "title": "Get Out",
+      "year": 2017,
+      "rating": 7.7,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2017 horror film rated 7.7/10."
+    },
+    {
+      "title": "Halloween",
+      "year": 1978,
+      "rating": 7.7,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 1978 horror film rated 7.7/10."
+    },
+    {
+      "title": "The Hangover",
+      "year": 2009,
+      "rating": 7.7,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2009 comedy film rated 7.7/10."
+    },
+    {
+      "title": "Deadpool 2",
+      "year": 2018,
+      "rating": 7.7,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2018 comedy film rated 7.7/10."
+    },
+    {
+      "title": "The Banshees of Inisherin",
+      "year": 2022,
+      "rating": 7.7,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2022 comedy film rated 7.7/10."
+    },
+    {
+      "title": "John Wick: Chapter 4",
+      "year": 2023,
+      "rating": 7.7,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2023 action film rated 7.7/10."
+    },
+    {
+      "title": "Mission: Impossible - Fallout",
+      "year": 2018,
+      "rating": 7.7,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2018 action film rated 7.7/10."
+    },
+    {
+      "title": "Mission: Impossible - Dead Reckoning",
+      "year": 2023,
+      "rating": 7.7,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2023 action film rated 7.7/10."
+    },
+    {
+      "title": "The Theory of Everything",
+      "year": 2014,
+      "rating": 7.7,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2014 drama film rated 7.7/10."
+    },
+    {
+      "title": "The Whale",
+      "year": 2022,
+      "rating": 7.7,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2022 drama film rated 7.7/10."
+    },
+    {
+      "title": "Ex Machina",
+      "year": 2014,
+      "rating": 7.7,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2014 sci-fi film rated 7.7/10."
+    },
+    {
+      "title": "Gravity",
+      "year": 2013,
+      "rating": 7.7,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2013 sci-fi film rated 7.7/10."
+    },
+    {
+      "title": "500 Days of Summer",
+      "year": 2009,
+      "rating": 7.7,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2009 romance film rated 7.7/10."
+    },
+    {
+      "title": "Silver Linings Playbook",
+      "year": 2012,
+      "rating": 7.7,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2012 romance film rated 7.7/10."
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "year": 2014,
+      "rating": 7.7,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2014 romance film rated 7.7/10."
+    },
+    {
+      "title": "Zodiac",
+      "year": 2007,
+      "rating": 7.7,
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "description": "A 2007 thriller film rated 7.7/10."
+    },
+    {
+      "title": "Wind River",
+      "year": 2017,
+      "rating": 7.7,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2017 thriller film rated 7.7/10."
+    },
+    {
+      "title": "Toy Story 4",
+      "year": 2019,
+      "rating": 7.7,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2019 animation film rated 7.7/10."
+    },
+    {
+      "title": "Saw",
+      "year": 2004,
+      "rating": 7.6,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2004 horror film rated 7.6/10."
+    },
+    {
+      "title": "Superbad",
+      "year": 2007,
+      "rating": 7.6,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2007 comedy film rated 7.6/10."
+    },
+    {
+      "title": "Avatar: The Way of Water",
+      "year": 2022,
+      "rating": 7.6,
+      "genres": [
+        "action",
+        "sci-fi",
+        "adventure"
+      ],
+      "description": "A 2022 action film rated 7.6/10."
+    },
+    {
+      "title": "Close Encounters of the Third Kind",
+      "year": 1977,
+      "rating": 7.6,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 1977 sci-fi film rated 7.6/10."
+    },
+    {
+      "title": "A Star Is Born",
+      "year": 2018,
+      "rating": 7.6,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2018 romance film rated 7.6/10."
+    },
+    {
+      "title": "Sicario",
+      "year": 2015,
+      "rating": 7.6,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2015 thriller film rated 7.6/10."
+    },
+    {
+      "title": "Hell or High Water",
+      "year": 2016,
+      "rating": 7.6,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2016 thriller film rated 7.6/10."
+    },
+    {
+      "title": "The Covenant",
+      "year": 2023,
+      "rating": 7.6,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2023 thriller film rated 7.6/10."
+    },
+    {
+      "title": "Inside Out 2",
+      "year": 2024,
+      "rating": 7.6,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2024 animation film rated 7.6/10."
+    },
+    {
+      "title": "Incredibles 2",
+      "year": 2018,
+      "rating": 7.6,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2018 animation film rated 7.6/10."
+    },
+    {
+      "title": "Moana",
+      "year": 2016,
+      "rating": 7.6,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2016 animation film rated 7.6/10."
+    },
+    {
+      "title": "Suzume",
+      "year": 2022,
+      "rating": 7.6,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2022 animation film rated 7.6/10."
+    },
+    {
+      "title": "The Social Dilemma",
+      "year": 2020,
+      "rating": 7.6,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2020 documentary film rated 7.6/10."
+    },
+    {
+      "title": "RBG",
+      "year": 2018,
+      "rating": 7.6,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2018 documentary film rated 7.6/10."
+    },
+    {
+      "title": "Stutz",
+      "year": 2022,
+      "rating": 7.6,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 7.6/10."
+    },
+    {
+      "title": "Guardians of the Galaxy Vol. 2",
+      "year": 2017,
+      "rating": 7.6,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2017 superhero film rated 7.6/10."
+    },
+    {
+      "title": "Baby Driver",
+      "year": 2017,
+      "rating": 7.6,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2017 crime film rated 7.6/10."
+    },
+    {
+      "title": "The Little Mermaid",
+      "year": 1989,
+      "rating": 7.6,
+      "genres": [
+        "family"
+      ],
+      "description": "A 1989 family film rated 7.6/10."
+    },
+    {
+      "title": "The Mitchells vs. the Machines",
+      "year": 2021,
+      "rating": 7.6,
+      "genres": [
+        "family"
+      ],
+      "description": "A 2021 family film rated 7.6/10."
+    },
+    {
+      "title": "The Conjuring",
+      "year": 2013,
+      "rating": 7.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2013 horror film rated 7.5/10."
+    },
+    {
+      "title": "A Quiet Place",
+      "year": 2018,
+      "rating": 7.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2018 horror film rated 7.5/10."
+    },
+    {
+      "title": "A Nightmare on Elm Street",
+      "year": 1984,
+      "rating": 7.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 1984 horror film rated 7.5/10."
+    },
+    {
+      "title": "The Lighthouse",
+      "year": 2019,
+      "rating": 7.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2019 horror film rated 7.5/10."
+    },
+    {
+      "title": "John Wick: Chapter 2",
+      "year": 2017,
+      "rating": 7.5,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2017 action film rated 7.5/10."
+    },
+    {
+      "title": "Promising Young Woman",
+      "year": 2020,
+      "rating": 7.5,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2020 drama film rated 7.5/10."
+    },
+    {
+      "title": "Minari",
+      "year": 2020,
+      "rating": 7.5,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2020 drama film rated 7.5/10."
+    },
+    {
+      "title": "King Richard",
+      "year": 2021,
+      "rating": 7.5,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2021 drama film rated 7.5/10."
+    },
+    {
+      "title": "The Fabelmans",
+      "year": 2022,
+      "rating": 7.5,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2022 drama film rated 7.5/10."
+    },
+    {
+      "title": "Upgrade",
+      "year": 2018,
+      "rating": 7.5,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2018 sci-fi film rated 7.5/10."
+    },
+    {
+      "title": "The Boy and the Heron",
+      "year": 2023,
+      "rating": 7.5,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2023 animation film rated 7.5/10."
+    },
+    {
+      "title": "Tiger King",
+      "year": 2020,
+      "rating": 7.5,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2020 documentary film rated 7.5/10."
+    },
+    {
+      "title": "Downfall: The Case Against Boeing",
+      "year": 2022,
+      "rating": 7.5,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 7.5/10."
+    },
+    {
+      "title": "Doctor Strange",
+      "year": 2016,
+      "rating": 7.5,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2016 superhero film rated 7.5/10."
+    },
+    {
+      "title": "The Town",
+      "year": 2010,
+      "rating": 7.5,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2010 crime film rated 7.5/10."
+    },
+    {
+      "title": "Scream",
+      "year": 1996,
+      "rating": 7.4,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 1996 horror film rated 7.4/10."
+    },
+    {
+      "title": "The Texas Chain Saw Massacre",
+      "year": 1974,
+      "rating": 7.4,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 1974 horror film rated 7.4/10."
+    },
+    {
+      "title": "The Nice Guys",
+      "year": 2016,
+      "rating": 7.4,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2016 comedy film rated 7.4/10."
+    },
+    {
+      "title": "Juno",
+      "year": 2007,
+      "rating": 7.4,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2007 comedy film rated 7.4/10."
+    },
+    {
+      "title": "Lady Bird",
+      "year": 2017,
+      "rating": 7.4,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2017 comedy film rated 7.4/10."
+    },
+    {
+      "title": "Palm Springs",
+      "year": 2020,
+      "rating": 7.4,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2020 comedy film rated 7.4/10."
+    },
+    {
+      "title": "John Wick",
+      "year": 2014,
+      "rating": 7.4,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2014 action film rated 7.4/10."
+    },
+    {
+      "title": "John Wick: Chapter 3",
+      "year": 2019,
+      "rating": 7.4,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2019 action film rated 7.4/10."
+    },
+    {
+      "title": "Mission: Impossible - Rogue Nation",
+      "year": 2015,
+      "rating": 7.4,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2015 action film rated 7.4/10."
+    },
+    {
+      "title": "Nobody",
+      "year": 2021,
+      "rating": 7.4,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2021 action film rated 7.4/10."
+    },
+    {
+      "title": "Shang-Chi",
+      "year": 2021,
+      "rating": 7.4,
+      "genres": [
+        "action",
+        "superhero"
+      ],
+      "description": "A 2021 action film rated 7.4/10."
+    },
+    {
+      "title": "Moonlight",
+      "year": 2016,
+      "rating": 7.4,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2016 drama film rated 7.4/10."
+    },
+    {
+      "title": "Crazy, Stupid, Love",
+      "year": 2011,
+      "rating": 7.4,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2011 romance film rated 7.4/10."
+    },
+    {
+      "title": "Me Before You",
+      "year": 2016,
+      "rating": 7.4,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2016 romance film rated 7.4/10."
+    },
+    {
+      "title": "Shrek 2",
+      "year": 2004,
+      "rating": 7.4,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2004 animation film rated 7.4/10."
+    },
+    {
+      "title": "Frozen",
+      "year": 2013,
+      "rating": 7.4,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2013 animation film rated 7.4/10."
+    },
+    {
+      "title": "Luca",
+      "year": 2021,
+      "rating": 7.4,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2021 animation film rated 7.4/10."
+    },
+    {
+      "title": "Wonder Woman",
+      "year": 2017,
+      "rating": 7.4,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2017 superhero film rated 7.4/10."
+    },
+    {
+      "title": "Uncut Gems",
+      "year": 2019,
+      "rating": 7.4,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2019 crime film rated 7.4/10."
+    },
+    {
+      "title": "The Jungle Book",
+      "year": 2016,
+      "rating": 7.4,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2016 adventure film rated 7.4/10."
+    },
+    {
+      "title": "The Conjuring 2",
+      "year": 2016,
+      "rating": 7.3,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2016 horror film rated 7.3/10."
+    },
+    {
+      "title": "Hereditary",
+      "year": 2018,
+      "rating": 7.3,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2018 horror film rated 7.3/10."
+    },
+    {
+      "title": "A Quiet Place Part II",
+      "year": 2020,
+      "rating": 7.3,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2020 horror film rated 7.3/10."
+    },
+    {
+      "title": "It",
+      "year": 2017,
+      "rating": 7.3,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2017 horror film rated 7.3/10."
+    },
+    {
+      "title": "Doctor Sleep",
+      "year": 2019,
+      "rating": 7.3,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2019 horror film rated 7.3/10."
+    },
+    {
+      "title": "The Edge of Seventeen",
+      "year": 2016,
+      "rating": 7.3,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2016 comedy film rated 7.3/10."
+    },
+    {
+      "title": "Bullet Train",
+      "year": 2022,
+      "rating": 7.3,
+      "genres": [
+        "comedy",
+        "action"
+      ],
+      "description": "A 2022 comedy film rated 7.3/10."
+    },
+    {
+      "title": "Triangle of Sadness",
+      "year": 2022,
+      "rating": 7.3,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2022 comedy film rated 7.3/10."
+    },
+    {
+      "title": "Tenet",
+      "year": 2020,
+      "rating": 7.3,
+      "genres": [
+        "action",
+        "sci-fi"
+      ],
+      "description": "A 2020 action film rated 7.3/10."
+    },
+    {
+      "title": "Nomadland",
+      "year": 2020,
+      "rating": 7.3,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2020 drama film rated 7.3/10."
+    },
+    {
+      "title": "Belfast",
+      "year": 2021,
+      "rating": 7.3,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2021 drama film rated 7.3/10."
+    },
+    {
+      "title": "Elvis",
+      "year": 2022,
+      "rating": 7.3,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2022 drama film rated 7.3/10."
+    },
+    {
+      "title": "Tár",
+      "year": 2022,
+      "rating": 7.3,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2022 drama film rated 7.3/10."
+    },
+    {
+      "title": "Alita: Battle Angel",
+      "year": 2019,
+      "rating": 7.3,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2019 sci-fi film rated 7.3/10."
+    },
+    {
+      "title": "Hustle",
+      "year": 2022,
+      "rating": 7.3,
+      "genres": [
+        "thriller",
+        "crime"
+      ],
+      "description": "A 2022 thriller film rated 7.3/10."
+    },
+    {
+      "title": "Finding Dory",
+      "year": 2016,
+      "rating": 7.3,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2016 animation film rated 7.3/10."
+    },
+    {
+      "title": "Raya and the Last Dragon",
+      "year": 2021,
+      "rating": 7.3,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2021 animation film rated 7.3/10."
+    },
+    {
+      "title": "Black Panther",
+      "year": 2018,
+      "rating": 7.3,
+      "genres": [
+        "superhero",
+        "adventure"
+      ],
+      "description": "A 2018 superhero film rated 7.3/10."
+    },
+    {
+      "title": "The Menu",
+      "year": 2022,
+      "rating": 7.2,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2022 horror film rated 7.2/10."
+    },
+    {
+      "title": "21 Jump Street",
+      "year": 2012,
+      "rating": 7.2,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2012 comedy film rated 7.2/10."
+    },
+    {
+      "title": "Anchorman",
+      "year": 2004,
+      "rating": 7.2,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2004 comedy film rated 7.2/10."
+    },
+    {
+      "title": "Don't Look Up",
+      "year": 2021,
+      "rating": 7.2,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2021 comedy film rated 7.2/10."
+    },
+    {
+      "title": "Die Hard 2",
+      "year": 1990,
+      "rating": 7.2,
+      "genres": [
+        "action"
+      ],
+      "description": "A 1990 action film rated 7.2/10."
+    },
+    {
+      "title": "The Matrix Reloaded",
+      "year": 2003,
+      "rating": 7.2,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2003 action film rated 7.2/10."
+    },
+    {
+      "title": "The Suicide Squad",
+      "year": 2021,
+      "rating": 7.2,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2021 action film rated 7.2/10."
+    },
+    {
+      "title": "Five Feet Apart",
+      "year": 2019,
+      "rating": 7.2,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2019 romance film rated 7.2/10."
+    },
+    {
+      "title": "Encanto",
+      "year": 2021,
+      "rating": 7.2,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2021 animation film rated 7.2/10."
+    },
+    {
+      "title": "The Most Hated Man on the Internet",
+      "year": 2022,
+      "rating": 7.2,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 7.2/10."
+    },
+    {
+      "title": "Paddington",
+      "year": 2014,
+      "rating": 7.2,
+      "genres": [
+        "family"
+      ],
+      "description": "A 2014 family film rated 7.2/10."
+    },
+    {
+      "title": "Midsommar",
+      "year": 2019,
+      "rating": 7.1,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2019 horror film rated 7.1/10."
+    },
+    {
+      "title": "The Ring",
+      "year": 2002,
+      "rating": 7.1,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2002 horror film rated 7.1/10."
+    },
+    {
+      "title": "Don't Breathe",
+      "year": 2016,
+      "rating": 7.1,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2016 horror film rated 7.1/10."
+    },
+    {
+      "title": "The Invisible Man",
+      "year": 2020,
+      "rating": 7.1,
+      "genres": [
+        "horror",
+        "thriller"
+      ],
+      "description": "A 2020 horror film rated 7.1/10."
+    },
+    {
+      "title": "Talk to Me",
+      "year": 2023,
+      "rating": 7.1,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2023 horror film rated 7.1/10."
+    },
+    {
+      "title": "Glass Onion",
+      "year": 2022,
+      "rating": 7.1,
+      "genres": [
+        "comedy",
+        "thriller",
+        "mystery"
+      ],
+      "description": "A 2022 comedy film rated 7.1/10."
+    },
+    {
+      "title": "Elf",
+      "year": 2003,
+      "rating": 7.1,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2003 comedy film rated 7.1/10."
+    },
+    {
+      "title": "Mean Girls",
+      "year": 2004,
+      "rating": 7.1,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2004 comedy film rated 7.1/10."
+    },
+    {
+      "title": "The Intern",
+      "year": 2015,
+      "rating": 7.1,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2015 comedy film rated 7.1/10."
+    },
+    {
+      "title": "Pitch Perfect",
+      "year": 2012,
+      "rating": 7.1,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2012 comedy film rated 7.1/10."
+    },
+    {
+      "title": "Booksmart",
+      "year": 2019,
+      "rating": 7.1,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2019 comedy film rated 7.1/10."
+    },
+    {
+      "title": "Free Guy",
+      "year": 2021,
+      "rating": 7.1,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2021 comedy film rated 7.1/10."
+    },
+    {
+      "title": "Fast & Furious 7",
+      "year": 2015,
+      "rating": 7.1,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2015 action film rated 7.1/10."
+    },
+    {
+      "title": "Wrath of Man",
+      "year": 2021,
+      "rating": 7.1,
+      "genres": [
+        "action",
+        "crime"
+      ],
+      "description": "A 2021 action film rated 7.1/10."
+    },
+    {
+      "title": "To All the Boys I've Loved Before",
+      "year": 2018,
+      "rating": 7.1,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2018 romance film rated 7.1/10."
+    },
+    {
+      "title": "Sicario: Day of the Soldado",
+      "year": 2018,
+      "rating": 7.1,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2018 thriller film rated 7.1/10."
+    },
+    {
+      "title": "Keep Sweet: Pray and Obey",
+      "year": 2022,
+      "rating": 7.1,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 7.1/10."
+    },
+    {
+      "title": "The Staircase",
+      "year": 2022,
+      "rating": 7.1,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 7.1/10."
+    },
+    {
+      "title": "Wonka",
+      "year": 2023,
+      "rating": 7.1,
+      "genres": [
+        "family"
+      ],
+      "description": "A 2023 family film rated 7.1/10."
+    },
+    {
+      "title": "Pearl",
+      "year": 2022,
+      "rating": 7.0,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2022 horror film rated 7.0/10."
+    },
+    {
+      "title": "Barbarian",
+      "year": 2022,
+      "rating": 7.0,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2022 horror film rated 7.0/10."
+    },
+    {
+      "title": "The Black Phone",
+      "year": 2021,
+      "rating": 7.0,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2021 horror film rated 7.0/10."
+    },
+    {
+      "title": "22 Jump Street",
+      "year": 2014,
+      "rating": 7.0,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2014 comedy film rated 7.0/10."
+    },
+    {
+      "title": "Tropic Thunder",
+      "year": 2008,
+      "rating": 7.0,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2008 comedy film rated 7.0/10."
+    },
+    {
+      "title": "Easy A",
+      "year": 2010,
+      "rating": 7.0,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2010 comedy film rated 7.0/10."
+    },
+    {
+      "title": "Barbie",
+      "year": 2023,
+      "rating": 7.0,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2023 comedy film rated 7.0/10."
+    },
+    {
+      "title": "Extraction 2",
+      "year": 2023,
+      "rating": 7.0,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2023 action film rated 7.0/10."
+    },
+    {
+      "title": "Jurassic World",
+      "year": 2015,
+      "rating": 7.0,
+      "genres": [
+        "sci-fi",
+        "adventure"
+      ],
+      "description": "A 2015 sci-fi film rated 7.0/10."
+    },
+    {
+      "title": "Prometheus",
+      "year": 2012,
+      "rating": 7.0,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2012 sci-fi film rated 7.0/10."
+    },
+    {
+      "title": "Missing",
+      "year": 2023,
+      "rating": 7.0,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2023 thriller film rated 7.0/10."
+    },
+    {
+      "title": "Turning Red",
+      "year": 2022,
+      "rating": 7.0,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2022 animation film rated 7.0/10."
+    },
+    {
+      "title": "Elemental",
+      "year": 2023,
+      "rating": 7.0,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2023 animation film rated 7.0/10."
+    },
+    {
+      "title": "The Super Mario Bros. Movie",
+      "year": 2023,
+      "rating": 7.0,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2023 animation film rated 7.0/10."
+    },
+    {
+      "title": "The Tinder Swindler",
+      "year": 2022,
+      "rating": 7.0,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 7.0/10."
+    },
+    {
+      "title": "Jimmy Savile: A British Horror Story",
+      "year": 2022,
+      "rating": 7.0,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 7.0/10."
+    },
+    {
+      "title": "Thor",
+      "year": 2011,
+      "rating": 7.0,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2011 superhero film rated 7.0/10."
+    },
+    {
+      "title": "Den of Thieves",
+      "year": 2018,
+      "rating": 7.0,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2018 crime film rated 7.0/10."
+    },
+    {
+      "title": "The Witch",
+      "year": 2015,
+      "rating": 6.9,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2015 horror film rated 6.9/10."
+    },
+    {
+      "title": "Ready or Not",
+      "year": 2019,
+      "rating": 6.9,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2019 horror film rated 6.9/10."
+    },
+    {
+      "title": "Step Brothers",
+      "year": 2008,
+      "rating": 6.9,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2008 comedy film rated 6.9/10."
+    },
+    {
+      "title": "Game Night",
+      "year": 2018,
+      "rating": 6.9,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2018 comedy film rated 6.9/10."
+    },
+    {
+      "title": "Crazy Rich Asians",
+      "year": 2018,
+      "rating": 6.9,
+      "genres": [
+        "comedy",
+        "romance"
+      ],
+      "description": "A 2018 comedy film rated 6.9/10."
+    },
+    {
+      "title": "Napoleon Dynamite",
+      "year": 2004,
+      "rating": 6.9,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2004 comedy film rated 6.9/10."
+    },
+    {
+      "title": "Clueless",
+      "year": 1995,
+      "rating": 6.9,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 1995 comedy film rated 6.9/10."
+    },
+    {
+      "title": "The Power of the Dog",
+      "year": 2021,
+      "rating": 6.9,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2021 drama film rated 6.9/10."
+    },
+    {
+      "title": "Women Talking",
+      "year": 2022,
+      "rating": 6.9,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2022 drama film rated 6.9/10."
+    },
+    {
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "year": 2022,
+      "rating": 6.9,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2022 superhero film rated 6.9/10."
+    },
+    {
+      "title": "Aquaman",
+      "year": 2018,
+      "rating": 6.9,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2018 superhero film rated 6.9/10."
+    },
+    {
+      "title": "Widows",
+      "year": 2018,
+      "rating": 6.9,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2018 crime film rated 6.9/10."
+    },
+    {
+      "title": "Us",
+      "year": 2019,
+      "rating": 6.8,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2019 horror film rated 6.8/10."
+    },
+    {
+      "title": "Insidious",
+      "year": 2010,
+      "rating": 6.8,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2010 horror film rated 6.8/10."
+    },
+    {
+      "title": "Sinister",
+      "year": 2012,
+      "rating": 6.8,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2012 horror film rated 6.8/10."
+    },
+    {
+      "title": "The Babadook",
+      "year": 2014,
+      "rating": 6.8,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2014 horror film rated 6.8/10."
+    },
+    {
+      "title": "Nope",
+      "year": 2022,
+      "rating": 6.8,
+      "genres": [
+        "horror",
+        "sci-fi"
+      ],
+      "description": "A 2022 horror film rated 6.8/10."
+    },
+    {
+      "title": "Bridesmaids",
+      "year": 2011,
+      "rating": 6.8,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2011 comedy film rated 6.8/10."
+    },
+    {
+      "title": "Judy",
+      "year": 2019,
+      "rating": 6.8,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2019 drama film rated 6.8/10."
+    },
+    {
+      "title": "Mank",
+      "year": 2020,
+      "rating": 6.8,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2020 drama film rated 6.8/10."
+    },
+    {
+      "title": "Annihilation",
+      "year": 2018,
+      "rating": 6.8,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2018 sci-fi film rated 6.8/10."
+    },
+    {
+      "title": "A Simple Favor",
+      "year": 2018,
+      "rating": 6.8,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2018 thriller film rated 6.8/10."
+    },
+    {
+      "title": "Run",
+      "year": 2020,
+      "rating": 6.8,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2020 thriller film rated 6.8/10."
+    },
+    {
+      "title": "Frozen II",
+      "year": 2019,
+      "rating": 6.8,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2019 animation film rated 6.8/10."
+    },
+    {
+      "title": "The Puppet Master",
+      "year": 2022,
+      "rating": 6.8,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 6.8/10."
+    },
+    {
+      "title": "Enola Holmes 2",
+      "year": 2022,
+      "rating": 6.8,
+      "genres": [
+        "mystery"
+      ],
+      "description": "A 2022 mystery film rated 6.8/10."
+    },
+    {
+      "title": "The Bad Guys",
+      "year": 2022,
+      "rating": 6.8,
+      "genres": [
+        "family"
+      ],
+      "description": "A 2022 family film rated 6.8/10."
+    },
+    {
+      "title": "Extraction",
+      "year": 2020,
+      "rating": 6.7,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2020 action film rated 6.7/10."
+    },
+    {
+      "title": "Black Widow",
+      "year": 2021,
+      "rating": 6.7,
+      "genres": [
+        "action",
+        "superhero"
+      ],
+      "description": "A 2021 action film rated 6.7/10."
+    },
+    {
+      "title": "Black Panther: Wakanda Forever",
+      "year": 2022,
+      "rating": 6.7,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2022 action film rated 6.7/10."
+    },
+    {
+      "title": "The Adam Project",
+      "year": 2022,
+      "rating": 6.7,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2022 sci-fi film rated 6.7/10."
+    },
+    {
+      "title": "The Proposal",
+      "year": 2009,
+      "rating": 6.7,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2009 romance film rated 6.7/10."
+    },
+    {
+      "title": "Fear Street Part 2: 1978",
+      "year": 2021,
+      "rating": 6.7,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2021 thriller film rated 6.7/10."
+    },
+    {
+      "title": "Inventing Anna",
+      "year": 2022,
+      "rating": 6.7,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 6.7/10."
+    },
+    {
+      "title": "Insidious: Chapter 2",
+      "year": 2013,
+      "rating": 6.6,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2013 horror film rated 6.6/10."
+    },
+    {
+      "title": "Candyman",
+      "year": 1992,
+      "rating": 6.6,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 1992 horror film rated 6.6/10."
+    },
+    {
+      "title": "Bird Box",
+      "year": 2018,
+      "rating": 6.6,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2018 horror film rated 6.6/10."
+    },
+    {
+      "title": "X",
+      "year": 2022,
+      "rating": 6.6,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2022 horror film rated 6.6/10."
+    },
+    {
+      "title": "Zoolander",
+      "year": 2001,
+      "rating": 6.6,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2001 comedy film rated 6.6/10."
+    },
+    {
+      "title": "Fast & Furious 8",
+      "year": 2017,
+      "rating": 6.6,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2017 action film rated 6.6/10."
+    },
+    {
+      "title": "The Old Guard",
+      "year": 2020,
+      "rating": 6.6,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2020 action film rated 6.6/10."
+    },
+    {
+      "title": "Elysium",
+      "year": 2013,
+      "rating": 6.6,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2013 sci-fi film rated 6.6/10."
+    },
+    {
+      "title": "Midnight Special",
+      "year": 2016,
+      "rating": 6.6,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2016 sci-fi film rated 6.6/10."
+    },
+    {
+      "title": "Fear Street Part 3: 1666",
+      "year": 2021,
+      "rating": 6.6,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2021 thriller film rated 6.6/10."
+    },
+    {
+      "title": "The Good Nurse",
+      "year": 2022,
+      "rating": 6.6,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 6.6/10."
+    },
+    {
+      "title": "Enola Holmes",
+      "year": 2020,
+      "rating": 6.6,
+      "genres": [
+        "mystery"
+      ],
+      "description": "A 2020 mystery film rated 6.6/10."
+    },
+    {
+      "title": "A Haunting in Venice",
+      "year": 2023,
+      "rating": 6.6,
+      "genres": [
+        "mystery"
+      ],
+      "description": "A 2023 mystery film rated 6.6/10."
+    },
+    {
+      "title": "Jungle Cruise",
+      "year": 2021,
+      "rating": 6.6,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2021 adventure film rated 6.6/10."
+    },
+    {
+      "title": "It Chapter Two",
+      "year": 2019,
+      "rating": 6.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2019 horror film rated 6.5/10."
+    },
+    {
+      "title": "Smile",
+      "year": 2022,
+      "rating": 6.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2022 horror film rated 6.5/10."
+    },
+    {
+      "title": "The Night House",
+      "year": 2020,
+      "rating": 6.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2020 horror film rated 6.5/10."
+    },
+    {
+      "title": "Host",
+      "year": 2020,
+      "rating": 6.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2020 horror film rated 6.5/10."
+    },
+    {
+      "title": "His House",
+      "year": 2020,
+      "rating": 6.5,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2020 horror film rated 6.5/10."
+    },
+    {
+      "title": "The Hangover Part II",
+      "year": 2011,
+      "rating": 6.5,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2011 comedy film rated 6.5/10."
+    },
+    {
+      "title": "The Gray Man",
+      "year": 2022,
+      "rating": 6.5,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2022 action film rated 6.5/10."
+    },
+    {
+      "title": "The Tomorrow War",
+      "year": 2021,
+      "rating": 6.5,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2021 action film rated 6.5/10."
+    },
+    {
+      "title": "War of the Worlds",
+      "year": 2005,
+      "rating": 6.5,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2005 sci-fi film rated 6.5/10."
+    },
+    {
+      "title": "Ad Astra",
+      "year": 2019,
+      "rating": 6.5,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2019 sci-fi film rated 6.5/10."
+    },
+    {
+      "title": "All the Bright Places",
+      "year": 2020,
+      "rating": 6.5,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2020 romance film rated 6.5/10."
+    },
+    {
+      "title": "The Girl on the Train",
+      "year": 2016,
+      "rating": 6.5,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2016 thriller film rated 6.5/10."
+    },
+    {
+      "title": "See How They Run",
+      "year": 2022,
+      "rating": 6.5,
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "description": "A 2022 thriller film rated 6.5/10."
+    },
+    {
+      "title": "The Flash",
+      "year": 2023,
+      "rating": 6.5,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2023 superhero film rated 6.5/10."
+    },
+    {
+      "title": "Murder on the Orient Express",
+      "year": 2017,
+      "rating": 6.5,
+      "genres": [
+        "mystery"
+      ],
+      "description": "A 2017 mystery film rated 6.5/10."
+    },
+    {
+      "title": "M3GAN",
+      "year": 2022,
+      "rating": 6.4,
+      "genres": [
+        "horror",
+        "sci-fi"
+      ],
+      "description": "A 2022 horror film rated 6.4/10."
+    },
+    {
+      "title": "Legally Blonde",
+      "year": 2001,
+      "rating": 6.4,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2001 comedy film rated 6.4/10."
+    },
+    {
+      "title": "Pitch Perfect 2",
+      "year": 2015,
+      "rating": 6.4,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2015 comedy film rated 6.4/10."
+    },
+    {
+      "title": "No Hard Feelings",
+      "year": 2023,
+      "rating": 6.4,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2023 comedy film rated 6.4/10."
+    },
+    {
+      "title": "Alien: Covenant",
+      "year": 2017,
+      "rating": 6.4,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2017 sci-fi film rated 6.4/10."
+    },
+    {
+      "title": "Bad Vegan",
+      "year": 2022,
+      "rating": 6.4,
+      "genres": [
+        "documentary"
+      ],
+      "description": "A 2022 documentary film rated 6.4/10."
+    },
+    {
+      "title": "Army of Thieves",
+      "year": 2021,
+      "rating": 6.4,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2021 crime film rated 6.4/10."
+    },
+    {
+      "title": "Paranormal Activity",
+      "year": 2007,
+      "rating": 6.3,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2007 horror film rated 6.3/10."
+    },
+    {
+      "title": "Bodies Bodies Bodies",
+      "year": 2022,
+      "rating": 6.3,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2022 horror film rated 6.3/10."
+    },
+    {
+      "title": "Relic",
+      "year": 2020,
+      "rating": 6.3,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2020 horror film rated 6.3/10."
+    },
+    {
+      "title": "Anchorman 2",
+      "year": 2013,
+      "rating": 6.3,
+      "genres": [
+        "comedy"
+      ],
+      "description": "A 2013 comedy film rated 6.3/10."
+    },
+    {
+      "title": "Red Notice",
+      "year": 2021,
+      "rating": 6.3,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2021 action film rated 6.3/10."
+    },
+    {
+      "title": "Love Hard",
+      "year": 2021,
+      "rating": 6.3,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2021 romance film rated 6.3/10."
+    },
+    {
+      "title": "I Care a Lot",
+      "year": 2020,
+      "rating": 6.3,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2020 thriller film rated 6.3/10."
+    },
+    {
+      "title": "Kimi",
+      "year": 2022,
+      "rating": 6.3,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 6.3/10."
+    },
+    {
+      "title": "Eternals",
+      "year": 2021,
+      "rating": 6.3,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2021 superhero film rated 6.3/10."
+    },
+    {
+      "title": "Black Adam",
+      "year": 2022,
+      "rating": 6.3,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2022 superhero film rated 6.3/10."
+    },
+    {
+      "title": "Death on the Nile",
+      "year": 2022,
+      "rating": 6.3,
+      "genres": [
+        "mystery"
+      ],
+      "description": "A 2022 mystery film rated 6.3/10."
+    },
+    {
+      "title": "The Guilty",
+      "year": 2021,
+      "rating": 6.3,
+      "genres": [
+        "crime"
+      ],
+      "description": "A 2021 crime film rated 6.3/10."
+    },
+    {
+      "title": "Uncharted",
+      "year": 2022,
+      "rating": 6.3,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2022 adventure film rated 6.3/10."
+    },
+    {
+      "title": "Malignant",
+      "year": 2021,
+      "rating": 6.2,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2021 horror film rated 6.2/10."
+    },
+    {
+      "title": "Kate",
+      "year": 2021,
+      "rating": 6.2,
+      "genres": [
+        "action",
+        "thriller"
+      ],
+      "description": "A 2021 action film rated 6.2/10."
+    },
+    {
+      "title": "Fear Street Part 1: 1994",
+      "year": 2021,
+      "rating": 6.2,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2021 thriller film rated 6.2/10."
+    },
+    {
+      "title": "Don't Worry Darling",
+      "year": 2022,
+      "rating": 6.2,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 6.2/10."
+    },
+    {
+      "title": "Amsterdam",
+      "year": 2022,
+      "rating": 6.1,
+      "genres": [
+        "comedy",
+        "mystery",
+        "crime"
+      ],
+      "description": "A 2022 comedy film rated 6.1/10."
+    },
+    {
+      "title": "6 Underground",
+      "year": 2019,
+      "rating": 6.1,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2019 action film rated 6.1/10."
+    },
+    {
+      "title": "The Hating Game",
+      "year": 2021,
+      "rating": 6.1,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2021 romance film rated 6.1/10."
+    },
+    {
+      "title": "Anyone But You",
+      "year": 2023,
+      "rating": 6.1,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2023 romance film rated 6.1/10."
+    },
+    {
+      "title": "No Exit",
+      "year": 2022,
+      "rating": 6.1,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 6.1/10."
+    },
+    {
+      "title": "Ambulance",
+      "year": 2022,
+      "rating": 6.1,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 6.1/10."
+    },
+    {
+      "title": "Memory",
+      "year": 2022,
+      "rating": 6.1,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 6.1/10."
+    },
+    {
+      "title": "The Lost City",
+      "year": 2022,
+      "rating": 6.1,
+      "genres": [
+        "adventure"
+      ],
+      "description": "A 2022 adventure film rated 6.1/10."
+    },
+    {
+      "title": "Purple Hearts",
+      "year": 2022,
+      "rating": 6.0,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2022 romance film rated 6.0/10."
+    },
+    {
+      "title": "Look Both Ways",
+      "year": 2022,
+      "rating": 6.0,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2022 romance film rated 6.0/10."
+    },
+    {
+      "title": "Blue Beetle",
+      "year": 2023,
+      "rating": 6.0,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2023 superhero film rated 6.0/10."
+    },
+    {
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "year": 2023,
+      "rating": 6.0,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2023 superhero film rated 6.0/10."
+    },
+    {
+      "title": "The Grudge",
+      "year": 2004,
+      "rating": 5.9,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2004 horror film rated 5.9/10."
+    },
+    {
+      "title": "Gunpowder Milkshake",
+      "year": 2021,
+      "rating": 5.9,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2021 action film rated 5.9/10."
+    },
+    {
+      "title": "The Kissing Booth",
+      "year": 2018,
+      "rating": 5.9,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2018 romance film rated 5.9/10."
+    },
+    {
+      "title": "Old",
+      "year": 2021,
+      "rating": 5.8,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2021 horror film rated 5.8/10."
+    },
+    {
+      "title": "Fast X",
+      "year": 2023,
+      "rating": 5.8,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2023 action film rated 5.8/10."
+    },
+    {
+      "title": "Army of the Dead",
+      "year": 2021,
+      "rating": 5.8,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2021 action film rated 5.8/10."
+    },
+    {
+      "title": "The Sun Is Also a Star",
+      "year": 2019,
+      "rating": 5.8,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2019 romance film rated 5.8/10."
+    },
+    {
+      "title": "The Kissing Booth 2",
+      "year": 2020,
+      "rating": 5.8,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2020 romance film rated 5.8/10."
+    },
+    {
+      "title": "A Perfect Pairing",
+      "year": 2022,
+      "rating": 5.8,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2022 romance film rated 5.8/10."
+    },
+    {
+      "title": "Lightyear",
+      "year": 2022,
+      "rating": 5.8,
+      "genres": [
+        "animation"
+      ],
+      "description": "A 2022 animation film rated 5.8/10."
+    },
+    {
+      "title": "The Matrix Resurrections",
+      "year": 2021,
+      "rating": 5.7,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2021 action film rated 5.7/10."
+    },
+    {
+      "title": "Stowaway",
+      "year": 2021,
+      "rating": 5.7,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2021 sci-fi film rated 5.7/10."
+    },
+    {
+      "title": "Hello, Goodbye, and Everything in Between",
+      "year": 2022,
+      "rating": 5.7,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2022 romance film rated 5.7/10."
+    },
+    {
+      "title": "Malcolm & Marie",
+      "year": 2021,
+      "rating": 5.7,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2021 thriller film rated 5.7/10."
+    },
+    {
+      "title": "The Woman in the Window",
+      "year": 2021,
+      "rating": 5.7,
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "description": "A 2021 thriller film rated 5.7/10."
+    },
+    {
+      "title": "Jurassic World: Dominion",
+      "year": 2022,
+      "rating": 5.6,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2022 sci-fi film rated 5.6/10."
+    },
+    {
+      "title": "The Midnight Sky",
+      "year": 2020,
+      "rating": 5.6,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2020 sci-fi film rated 5.6/10."
+    },
+    {
+      "title": "The Kissing Booth 3",
+      "year": 2021,
+      "rating": 5.6,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2021 romance film rated 5.6/10."
+    },
+    {
+      "title": "One True Loves",
+      "year": 2023,
+      "rating": 5.6,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2023 romance film rated 5.6/10."
+    },
+    {
+      "title": "Wish",
+      "year": 2023,
+      "rating": 5.6,
+      "genres": [
+        "animation",
+        "family"
+      ],
+      "description": "A 2023 animation film rated 5.6/10."
+    },
+    {
+      "title": "The Cloverfield Paradox",
+      "year": 2018,
+      "rating": 5.5,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2018 sci-fi film rated 5.5/10."
+    },
+    {
+      "title": "The Marvels",
+      "year": 2023,
+      "rating": 5.5,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2023 superhero film rated 5.5/10."
+    },
+    {
+      "title": "Annabelle",
+      "year": 2014,
+      "rating": 5.4,
+      "genres": [
+        "horror"
+      ],
+      "description": "A 2014 horror film rated 5.4/10."
+    },
+    {
+      "title": "Blonde",
+      "year": 2022,
+      "rating": 5.4,
+      "genres": [
+        "drama"
+      ],
+      "description": "A 2022 drama film rated 5.4/10."
+    },
+    {
+      "title": "65",
+      "year": 2023,
+      "rating": 5.4,
+      "genres": [
+        "sci-fi"
+      ],
+      "description": "A 2023 sci-fi film rated 5.4/10."
+    },
+    {
+      "title": "Love in the Villa",
+      "year": 2022,
+      "rating": 5.4,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2022 romance film rated 5.4/10."
+    },
+    {
+      "title": "Persuasion",
+      "year": 2022,
+      "rating": 5.4,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2022 romance film rated 5.4/10."
+    },
+    {
+      "title": "The Weekend Away",
+      "year": 2022,
+      "rating": 5.4,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 5.4/10."
+    },
+    {
+      "title": "Spiderhead",
+      "year": 2022,
+      "rating": 5.4,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 5.4/10."
+    },
+    {
+      "title": "Deep Water",
+      "year": 2022,
+      "rating": 5.4,
+      "genres": [
+        "thriller"
+      ],
+      "description": "A 2022 thriller film rated 5.4/10."
+    },
+    {
+      "title": "Wonder Woman 1984",
+      "year": 2020,
+      "rating": 5.4,
+      "genres": [
+        "superhero"
+      ],
+      "description": "A 2020 superhero film rated 5.4/10."
+    },
+    {
+      "title": "Snake Eyes",
+      "year": 2021,
+      "rating": 5.3,
+      "genres": [
+        "action"
+      ],
+      "description": "A 2021 action film rated 5.3/10."
+    },
+    {
+      "title": "After",
+      "year": 2019,
+      "rating": 5.3,
+      "genres": [
+        "romance"
+      ],
+      "description": "A 2019 romance film rated 5.3/10."
+    }
+  ]
 }

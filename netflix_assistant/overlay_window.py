@@ -25,7 +25,8 @@ class SuggestionOverlay:
     def __init__(
         self,
         on_select: Optional[Callable[[Dict], None]] = None,
-        on_close: Optional[Callable[[], None]] = None
+        on_close: Optional[Callable[[], None]] = None,
+        on_genre_select: Optional[Callable[[str], None]] = None
     ):
         """
         Initialize the overlay.
@@ -33,13 +34,16 @@ class SuggestionOverlay:
         Args:
             on_select: Callback when a movie is selected
             on_close: Callback when overlay is closed
+            on_genre_select: Callback when a genre is selected
         """
         self.on_select = on_select
         self.on_close = on_close
+        self.on_genre_select = on_genre_select
         
         self.root: Optional[tk.Tk] = None
         self.main_frame: Optional[tk.Frame] = None
         self.items: List[Dict] = []
+        self.genres: List[Dict] = []
         self.item_frames: List[tk.Frame] = []
         self.selected_index = 0
         self.is_visible = False
@@ -113,6 +117,10 @@ class SuggestionOverlay:
         sep = tk.Frame(self.main_frame, bg=self.cfg['border_color'], height=1)
         sep.pack(fill=tk.X, padx=self.cfg['padding'])
         
+        # Genre pills container
+        self.genre_frame = tk.Frame(self.main_frame, bg=self.cfg['bg_color'])
+        self.genre_frame.pack(fill=tk.X, padx=self.cfg['padding'], pady=(self.cfg['padding'], 0))
+        
         # Items container
         self.items_frame = tk.Frame(self.main_frame, bg=self.cfg['bg_color'])
         self.items_frame.pack(fill=tk.BOTH, expand=True, padx=self.cfg['padding'], pady=self.cfg['padding'])
@@ -155,19 +163,21 @@ class SuggestionOverlay:
         self.root = None
         logger.info("Overlay stopped")
     
-    def show(self, items: List[Dict], query: str = ""):
+    def show(self, items: List[Dict], query: str = "", genres: List[Dict] = None):
         """
         Show the overlay with the given items.
         
         Args:
             items: List of movie dictionaries to display
             query: The current search query
+            genres: List of matching genre dictionaries to display
         """
         if not self.root:
             logger.warning("Overlay not initialized")
             return
         
         self.items = items
+        self.genres = genres or []
         self.query = query
         self.selected_index = 0
         
@@ -195,6 +205,25 @@ class SuggestionOverlay:
             self.query_label.configure(text=f'"{self.query}"')
         else:
             self.query_label.configure(text='')
+        
+        # Clear existing genre pills
+        for widget in self.genre_frame.winfo_children():
+            widget.destroy()
+        
+        # Display genre pills if available
+        if self.genres:
+            genre_label = tk.Label(
+                self.genre_frame,
+                text="Genres:",
+                font=(self.cfg['font_family'], self.cfg['font_size'] - 1),
+                fg='#888888',
+                bg=self.cfg['bg_color']
+            )
+            genre_label.pack(side=tk.LEFT, padx=(0, 8))
+            
+            for genre in self.genres:
+                pill = self._create_genre_pill(genre)
+                pill.pack(side=tk.LEFT, padx=2)
         
         # Clear existing items
         for widget in self.items_frame.winfo_children():
@@ -234,6 +263,56 @@ class SuggestionOverlay:
         
         # Highlight selected item
         self._update_selection()
+    
+    def _create_genre_pill(self, genre: Dict) -> tk.Frame:
+        """Create a clickable genre pill button."""
+        pill = tk.Frame(
+            self.genre_frame,
+            bg='#3a3a3a',
+            cursor='hand2',
+            padx=8,
+            pady=4
+        )
+        
+        # Genre icon and name
+        icon = genre.get('icon', '🎬')
+        name = genre.get('name', 'Genre')
+        search_term = genre.get('search_term', name.lower())
+        
+        label = tk.Label(
+            pill,
+            text=f"{icon} {name}",
+            font=(self.cfg['font_family'], self.cfg['font_size'] - 1, 'bold'),
+            fg='#e50914',
+            bg='#3a3a3a',
+            cursor='hand2'
+        )
+        label.pack()
+        
+        # Bind click event
+        def on_genre_click(event):
+            if self.on_genre_select:
+                self.on_genre_select(search_term)
+                self.hide()
+        
+        pill.bind('<Button-1>', on_genre_click)
+        label.bind('<Button-1>', on_genre_click)
+        
+        # Hover effect
+        def on_enter(event):
+            pill.configure(bg='#4a4a4a')
+            label.configure(bg='#4a4a4a')
+        
+        def on_leave(event):
+            pill.configure(bg='#3a3a3a')
+            label.configure(bg='#3a3a3a')
+        
+        pill.bind('<Enter>', on_enter)
+        pill.bind('<Leave>', on_leave)
+        label.bind('<Enter>', on_enter)
+        label.bind('<Leave>', on_leave)
+        
+        return pill
     
     def _create_item_frame(self, index: int, movie: Dict) -> tk.Frame:
         """Create a frame for a single movie item."""
